@@ -1,0 +1,791 @@
+06-15 21:45 root         INFO     Loading starting molecules from dataset1/starting_mols.pkl
+06-15 21:45 root         INFO     23081629 starting molecules loaded
+06-15 21:45 root         INFO     190 routes extracted from dataset1/test_mols.pkl loaded
+06-15 21:45 root         INFO     Templates: one_step_model/template_rules_1.dat
+06-15 21:45 root         INFO     Loading trained mlp model from one_step_model/saved_rollout_state_1_2048.ckpt
+06-15 21:46 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:46 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:46 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:46 root         INFO     Final search status | success value | iter: 6.062309001527676 | inf | 200
+06-15 21:46 root         INFO     Succ: 0/1/190 | avg time: 79.59 s | avg iter: 200.00
+06-15 21:47 root         INFO     Synthesis route found!
+06-15 21:47 root         INFO     Final search status | success value | iter: 5.636525863159296 | 12.544281142141434 | 187
+06-15 21:47 root         INFO     Succ: 1/2/190 | avg time: 72.80 s | avg iter: 193.50
+06-15 21:47 root         INFO     Expansion fails on C[Mg]Br!
+06-15 21:47 root         INFO     Expansion fails on Cl[Sb](Cl)(Cl)(Cl)Cl!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Cl!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Br!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Cl!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Cl!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Br!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Br!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Cl!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Br!
+06-15 21:48 root         INFO     Expansion fails on C[Mg]Br!
+06-15 21:48 root         INFO     Synthesis route found!
+06-15 21:48 root         INFO     Final search status | success value | iter: 5.5400774638767505 | 12.447832742858887 | 90
+06-15 21:48 root         INFO     Succ: 2/3/190 | avg time: 61.48 s | avg iter: 159.00
+06-15 21:48 root         INFO     Synthesis route found!
+06-15 21:48 root         INFO     Final search status | success value | iter: 0.47280198937749707 | 0.47280222589013016 | 7
+06-15 21:48 root         INFO     Succ: 3/4/190 | avg time: 46.54 s | avg iter: 121.00
+06-15 21:50 root         INFO     Final search status | success value | iter: 5.63245242645397 | inf | 200
+06-15 21:50 root         INFO     Succ: 3/5/190 | avg time: 57.26 s | avg iter: 136.80
+06-15 21:50 root         INFO     Synthesis route found!
+06-15 21:50 root         INFO     Final search status | success value | iter: 5.069956145468633 | 7.327710486951582 | 106
+06-15 21:50 root         INFO     Succ: 4/6/190 | avg time: 54.60 s | avg iter: 131.67
+06-15 21:53 root         INFO     Final search status | success value | iter: 5.715873807492175 | inf | 200
+06-15 21:53 root         INFO     Succ: 4/7/190 | avg time: 66.15 s | avg iter: 141.43
+06-15 21:53 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:54 root         INFO     Final search status | success value | iter: 5.900837321865033 | inf | 200
+06-15 21:54 root         INFO     Succ: 4/8/190 | avg time: 69.40 s | avg iter: 148.75
+06-15 21:55 root         INFO     Synthesis route found!
+06-15 21:55 root         INFO     Final search status | success value | iter: 6.392366555820209 | 13.300121834802347 | 57
+06-15 21:55 root         INFO     Succ: 5/9/190 | avg time: 63.88 s | avg iter: 138.56
+06-15 21:55 root         INFO     Expansion fails on C=NN=O!
+06-15 21:55 root         INFO     Synthesis route found!
+06-15 21:55 root         INFO     Final search status | success value | iter: 5.922811857029671 | 9.841124581106973 | 145
+06-15 21:55 root         INFO     Succ: 6/10/190 | avg time: 62.92 s | avg iter: 139.20
+06-15 21:56 root         INFO     Synthesis route found!
+06-15 21:56 root         INFO     Final search status | success value | iter: 4.900933078833471 | 4.920680105659674 | 106
+06-15 21:56 root         INFO     Succ: 7/11/190 | avg time: 60.76 s | avg iter: 136.18
+06-15 21:56 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 21:56 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:56 root         INFO     Synthesis route found!
+06-15 21:56 root         INFO     Final search status | success value | iter: 3.8076218939332693 | 3.807626400956016 | 16
+06-15 21:56 root         INFO     Succ: 8/12/190 | avg time: 56.02 s | avg iter: 126.17
+06-15 21:56 root         INFO     Synthesis route found!
+06-15 21:56 root         INFO     Final search status | success value | iter: 0.37398132626649244 | 0.758151927744966 | 4
+06-15 21:56 root         INFO     Succ: 9/13/190 | avg time: 51.99 s | avg iter: 116.77
+06-15 21:56 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Final search status | success value | iter: 6.799676384454104 | inf | 200
+06-15 21:58 root         INFO     Succ: 9/14/190 | avg time: 54.62 s | avg iter: 122.71
+06-15 21:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Expansion fails on C[Mg]Cl!
+06-15 21:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 21:58 root         INFO     Synthesis route found!
+06-15 21:58 root         INFO     Final search status | success value | iter: 6.907755278982137 | 8.00936443671011 | 113
+06-15 21:58 root         INFO     Succ: 10/15/190 | avg time: 53.66 s | avg iter: 122.07
+06-15 21:58 root         INFO     Synthesis route found!
+06-15 21:58 root         INFO     Final search status | success value | iter: 0.4745721724951093 | 0.47486914061831403 | 4
+06-15 21:58 root         INFO     Succ: 11/16/190 | avg time: 50.37 s | avg iter: 114.69
+06-15 21:59 root         INFO     Synthesis route found!
+06-15 21:59 root         INFO     Final search status | success value | iter: 5.214048457533984 | 9.132361181611286 | 58
+06-15 21:59 root         INFO     Succ: 12/17/190 | avg time: 48.58 s | avg iter: 111.35
+06-15 21:59 root         INFO     Synthesis route found!
+06-15 21:59 root         INFO     Final search status | success value | iter: 0.7421717137983338 | 0.7421949739273888 | 6
+06-15 21:59 root         INFO     Succ: 13/18/190 | avg time: 45.95 s | avg iter: 105.50
+06-15 21:59 root         INFO     Synthesis route found!
+06-15 21:59 root         INFO     Final search status | success value | iter: 6.059808743317794 | 12.967564022299932 | 109
+06-15 21:59 root         INFO     Succ: 14/19/190 | avg time: 45.59 s | avg iter: 105.68
+06-15 22:01 root         INFO     Final search status | success value | iter: 5.92057083880273 | inf | 200
+06-15 22:01 root         INFO     Succ: 14/20/190 | avg time: 47.70 s | avg iter: 110.40
+06-15 22:01 root         INFO     Synthesis route found!
+06-15 22:01 root         INFO     Final search status | success value | iter: 4.7824433753502475 | 6.0588479690814205 | 9
+06-15 22:01 root         INFO     Succ: 15/21/190 | avg time: 45.67 s | avg iter: 105.57
+06-15 22:03 root         INFO     Final search status | success value | iter: 5.531559455387775 | inf | 200
+06-15 22:03 root         INFO     Succ: 15/22/190 | avg time: 49.89 s | avg iter: 109.86
+06-15 22:03 root         INFO     Synthesis route found!
+06-15 22:03 root         INFO     Final search status | success value | iter: 1.000001541260215 | 1.000117104361394 | 5
+06-15 22:03 root         INFO     Succ: 16/23/190 | avg time: 47.80 s | avg iter: 105.30
+06-15 22:05 root         INFO     Final search status | success value | iter: 5.68119471623146 | inf | 200
+06-15 22:05 root         INFO     Succ: 16/24/190 | avg time: 51.31 s | avg iter: 109.25
+06-15 22:06 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:06 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:06 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:06 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:06 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:07 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:07 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:07 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:07 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:07 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:07 root         INFO     Final search status | success value | iter: 6.447316537016181 | inf | 200
+06-15 22:07 root         INFO     Succ: 16/25/190 | avg time: 53.28 s | avg iter: 112.88
+06-15 22:07 root         INFO     Synthesis route found!
+06-15 22:07 root         INFO     Final search status | success value | iter: 0.010410179881368274 | 0.15868886234794674 | 3
+06-15 22:07 root         INFO     Succ: 17/26/190 | avg time: 51.26 s | avg iter: 108.65
+06-15 22:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:09 root         INFO     Final search status | success value | iter: 7.194701810074595 | inf | 200
+06-15 22:09 root         INFO     Succ: 17/27/190 | avg time: 52.58 s | avg iter: 112.04
+06-15 22:09 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:09 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:10 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:10 root         INFO     Final search status | success value | iter: 6.040940085417392 | inf | 200
+06-15 22:10 root         INFO     Succ: 17/28/190 | avg time: 53.56 s | avg iter: 115.18
+06-15 22:10 root         INFO     Synthesis route found!
+06-15 22:10 root         INFO     Final search status | success value | iter: 0.14931096810203714 | 0.1493237053340264 | 7
+06-15 22:10 root         INFO     Succ: 18/29/190 | avg time: 51.86 s | avg iter: 111.45
+06-15 22:10 root         INFO     Synthesis route found!
+06-15 22:10 root         INFO     Final search status | success value | iter: 5.17075023518849 | 10.941444600019466 | 73
+06-15 22:10 root         INFO     Succ: 19/30/190 | avg time: 51.00 s | avg iter: 110.17
+06-15 22:12 root         INFO     Synthesis route found!
+06-15 22:12 root         INFO     Final search status | success value | iter: 5.574117981988527 | 6.532385034366952 | 173
+06-15 22:12 root         INFO     Succ: 20/31/190 | avg time: 52.60 s | avg iter: 112.19
+06-15 22:12 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:13 root         INFO     Synthesis route found!
+06-15 22:13 root         INFO     Final search status | success value | iter: 5.741921525462995 | 9.182854960702512 | 87
+06-15 22:13 root         INFO     Succ: 21/32/190 | avg time: 52.08 s | avg iter: 111.41
+06-15 22:13 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:13 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:13 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:13 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:13 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:13 root         INFO     Synthesis route found!
+06-15 22:13 root         INFO     Final search status | success value | iter: 5.297449202916399 | 7.5552035443993475 | 100
+06-15 22:13 root         INFO     Succ: 22/33/190 | avg time: 51.82 s | avg iter: 111.06
+06-15 22:15 root         INFO     Final search status | success value | iter: 6.684115418346741 | inf | 200
+06-15 22:15 root         INFO     Succ: 22/34/190 | avg time: 53.75 s | avg iter: 113.68
+06-15 22:16 root         INFO     Synthesis route found!
+06-15 22:16 root         INFO     Final search status | success value | iter: 4.863120738602718 | 5.610577658685056 | 90
+06-15 22:16 root         INFO     Succ: 23/35/190 | avg time: 53.31 s | avg iter: 113.00
+06-15 22:18 root         INFO     Final search status | success value | iter: 8.19198075643573 | inf | 200
+06-15 22:18 root         INFO     Succ: 23/36/190 | avg time: 54.89 s | avg iter: 115.42
+06-15 22:19 root         INFO     Final search status | success value | iter: 6.426149690939785 | inf | 200
+06-15 22:19 root         INFO     Succ: 23/37/190 | avg time: 55.30 s | avg iter: 117.70
+06-15 22:20 root         INFO     Expansion fails on O=O!
+06-15 22:20 root         INFO     Final search status | success value | iter: 8.190257240044335 | inf | 200
+06-15 22:20 root         INFO     Succ: 23/38/190 | avg time: 56.13 s | avg iter: 119.87
+06-15 22:21 root         INFO     Expansion fails on [O-][I+2]([O-])O[I+2]([O-])[O-]!
+06-15 22:22 root         INFO     Final search status | success value | iter: 5.685413813480871 | inf | 200
+06-15 22:22 root         INFO     Succ: 23/39/190 | avg time: 56.61 s | avg iter: 121.92
+06-15 22:22 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:22 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:22 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:22 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:23 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:23 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:23 root         INFO     Synthesis route found!
+06-15 22:23 root         INFO     Final search status | success value | iter: 6.104529991857433 | 6.793246940038461 | 153
+06-15 22:23 root         INFO     Succ: 24/40/190 | avg time: 56.78 s | avg iter: 122.70
+06-15 22:25 root         INFO     Final search status | success value | iter: 5.700067870363649 | inf | 200
+06-15 22:25 root         INFO     Succ: 24/41/190 | avg time: 58.70 s | avg iter: 124.59
+06-15 22:25 root         INFO     Synthesis route found!
+06-15 22:25 root         INFO     Final search status | success value | iter: 2.0922971558872714 | 2.6523697576139846 | 8
+06-15 22:25 root         INFO     Succ: 25/42/190 | avg time: 57.37 s | avg iter: 121.81
+06-15 22:25 root         INFO     Synthesis route found!
+06-15 22:25 root         INFO     Final search status | success value | iter: 0.05439582721641621 | 0.05523783756119358 | 2
+06-15 22:25 root         INFO     Succ: 26/43/190 | avg time: 56.05 s | avg iter: 119.02
+06-15 22:27 root         INFO     Final search status | success value | iter: 5.631871557620052 | inf | 200
+06-15 22:27 root         INFO     Succ: 26/44/190 | avg time: 57.89 s | avg iter: 120.86
+06-15 22:28 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:28 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:28 root         INFO     Synthesis route found!
+06-15 22:28 root         INFO     Final search status | success value | iter: 5.496358013254356 | 7.754112354737304 | 79
+06-15 22:28 root         INFO     Succ: 27/45/190 | avg time: 57.47 s | avg iter: 119.93
+06-15 22:28 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:28 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:28 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:30 root         INFO     Final search status | success value | iter: 6.380586870069465 | inf | 200
+06-15 22:30 root         INFO     Succ: 27/46/190 | avg time: 58.35 s | avg iter: 121.67
+06-15 22:31 root         INFO     Synthesis route found!
+06-15 22:31 root         INFO     Final search status | success value | iter: 5.545960522993615 | 8.474958268371337 | 114
+06-15 22:31 root         INFO     Succ: 28/47/190 | avg time: 58.24 s | avg iter: 121.51
+06-15 22:31 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:31 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:31 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:32 root         INFO     Final search status | success value | iter: 6.282333187672831 | inf | 200
+06-15 22:32 root         INFO     Succ: 28/48/190 | avg time: 58.59 s | avg iter: 123.15
+06-15 22:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:32 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+06-15 22:32 root         INFO     Expansion fails on Cn1oc(=O)nc1S(=O)[O-]!
+06-15 22:32 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:32 root         INFO     Expansion fails on Cn1oc(=O)nc1SC(=O)Cl!
+06-15 22:32 root         INFO     Expansion fails on Cn1oc(=O)nc1SC#N!
+06-15 22:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:32 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:33 root         INFO     Final search status | success value | iter: 6.9271646578974915 | inf | 200
+06-15 22:33 root         INFO     Succ: 28/49/190 | avg time: 58.62 s | avg iter: 124.71
+06-15 22:35 root         INFO     Final search status | success value | iter: 6.529183114261474 | inf | 200
+06-15 22:35 root         INFO     Succ: 28/50/190 | avg time: 59.61 s | avg iter: 126.22
+06-15 22:35 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:35 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 22:35 root         INFO     Synthesis route found!
+06-15 22:35 root         INFO     Final search status | success value | iter: 5.238747060717363 | 12.1465023396995 | 126
+06-15 22:35 root         INFO     Succ: 29/51/190 | avg time: 59.34 s | avg iter: 126.22
+06-15 22:35 root         INFO     Synthesis route found!
+06-15 22:35 root         INFO     Final search status | success value | iter: 1.3985581666344264 | 1.3985584031470595 | 8
+06-15 22:35 root         INFO     Succ: 30/52/190 | avg time: 58.28 s | avg iter: 123.94
+06-15 22:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:36 root         INFO     Synthesis route found!
+06-15 22:36 root         INFO     Final search status | success value | iter: 5.553929837347133 | 5.563439617492666 | 132
+06-15 22:36 root         INFO     Succ: 31/53/190 | avg time: 58.18 s | avg iter: 124.09
+06-15 22:36 root         INFO     Synthesis route found!
+06-15 22:36 root         INFO     Final search status | success value | iter: 0.043054935704407306 | 5.000990542313033 | 3
+06-15 22:36 root         INFO     Succ: 32/54/190 | avg time: 57.14 s | avg iter: 121.85
+06-15 22:37 root         INFO     Synthesis route found!
+06-15 22:37 root         INFO     Final search status | success value | iter: 5.170762222868899 | 10.941456587699875 | 74
+06-15 22:37 root         INFO     Succ: 33/55/190 | avg time: 56.63 s | avg iter: 120.98
+06-15 22:39 root         INFO     Final search status | success value | iter: 6.190575418337625 | inf | 200
+06-15 22:39 root         INFO     Succ: 33/56/190 | avg time: 57.58 s | avg iter: 122.39
+06-15 22:40 root         INFO     Synthesis route found!
+06-15 22:40 root         INFO     Final search status | success value | iter: 5.810983690942057 | 6.287217788036277 | 148
+06-15 22:40 root         INFO     Succ: 34/57/190 | avg time: 58.20 s | avg iter: 122.84
+06-15 22:40 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:40 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:40 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:40 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:41 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:41 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:41 root         INFO     Final search status | success value | iter: 8.003691930394215 | inf | 200
+06-15 22:41 root         INFO     Succ: 34/58/190 | avg time: 58.34 s | avg iter: 124.17
+06-15 22:41 root         INFO     Expansion fails on C[Mg]Br!
+06-15 22:41 root         INFO     Expansion fails on C[Mg]Br!
+06-15 22:41 root         INFO     Synthesis route found!
+06-15 22:41 root         INFO     Final search status | success value | iter: 6.91447060497023 | 7.6127629076643455 | 16
+06-15 22:41 root         INFO     Succ: 35/59/190 | avg time: 57.47 s | avg iter: 122.34
+06-15 22:42 root         INFO     Synthesis route found!
+06-15 22:42 root         INFO     Final search status | success value | iter: 0.2906439926147355 | 0.29065672984672475 | 8
+06-15 22:42 root         INFO     Succ: 36/60/190 | avg time: 56.59 s | avg iter: 120.43
+06-15 22:42 root         INFO     Synthesis route found!
+06-15 22:42 root         INFO     Final search status | success value | iter: 5.717907244304978 | 12.625662523287115 | 187
+06-15 22:42 root         INFO     Succ: 37/61/190 | avg time: 56.59 s | avg iter: 121.52
+06-15 22:44 root         INFO     Final search status | success value | iter: 5.831096844467221 | inf | 200
+06-15 22:44 root         INFO     Succ: 37/62/190 | avg time: 57.63 s | avg iter: 122.79
+06-15 22:45 root         INFO     Synthesis route found!
+06-15 22:45 root         INFO     Final search status | success value | iter: 5.558873684833522 | 5.558977599368303 | 140
+06-15 22:45 root         INFO     Succ: 38/63/190 | avg time: 57.56 s | avg iter: 123.06
+06-15 22:48 root         INFO     Final search status | success value | iter: 5.656074355328026 | inf | 200
+06-15 22:48 root         INFO     Succ: 38/64/190 | avg time: 58.92 s | avg iter: 124.27
+06-15 22:49 root         INFO     Final search status | success value | iter: 5.93668197838881 | inf | 200
+06-15 22:49 root         INFO     Succ: 38/65/190 | avg time: 59.28 s | avg iter: 125.43
+06-15 22:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:50 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:51 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:51 root         INFO     Final search status | success value | iter: 6.265184010070476 | inf | 200
+06-15 22:51 root         INFO     Succ: 38/66/190 | avg time: 59.87 s | avg iter: 126.56
+06-15 22:51 root         INFO     Synthesis route found!
+06-15 22:51 root         INFO     Final search status | success value | iter: 6.907755278982137 | 6.908198974809603 | 88
+06-15 22:51 root         INFO     Succ: 39/67/190 | avg time: 59.54 s | avg iter: 125.99
+06-15 22:52 root         INFO     Synthesis route found!
+06-15 22:52 root         INFO     Final search status | success value | iter: 7.287122062815872 | 7.386464726173154 | 113
+06-15 22:52 root         INFO     Succ: 40/68/190 | avg time: 59.41 s | avg iter: 125.79
+06-15 22:52 root         INFO     Expansion fails on O=[Mn](=O)(=O)[O-]!
+06-15 22:52 root         INFO     Expansion fails on O=[Mn](=O)(=O)[O-]!
+06-15 22:53 root         INFO     Synthesis route found!
+06-15 22:53 root         INFO     Final search status | success value | iter: 5.513201056363807 | 7.877300496829162 | 46
+06-15 22:53 root         INFO     Succ: 41/69/190 | avg time: 58.78 s | avg iter: 124.64
+06-15 22:55 root         INFO     Final search status | success value | iter: 5.658396954429384 | inf | 200
+06-15 22:55 root         INFO     Succ: 41/70/190 | avg time: 59.78 s | avg iter: 125.71
+06-15 22:56 root         INFO     Synthesis route found!
+06-15 22:56 root         INFO     Final search status | success value | iter: 6.907755278982137 | 8.714302603350754 | 152
+06-15 22:56 root         INFO     Succ: 42/71/190 | avg time: 59.70 s | avg iter: 126.08
+06-15 22:56 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:56 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 22:56 root         INFO     Synthesis route found!
+06-15 22:56 root         INFO     Final search status | success value | iter: 6.907755278982137 | 12.03642754089158 | 87
+06-15 22:56 root         INFO     Succ: 43/72/190 | avg time: 59.25 s | avg iter: 125.54
+06-15 22:57 root         INFO     Synthesis route found!
+06-15 22:57 root         INFO     Final search status | success value | iter: 5.343046608054282 | 12.250801887036419 | 177
+06-15 22:57 root         INFO     Succ: 44/73/190 | avg time: 59.41 s | avg iter: 126.25
+06-15 22:58 root         INFO     Synthesis route found!
+06-15 22:58 root         INFO     Final search status | success value | iter: 5.40230037674285 | 5.40731824631265 | 132
+06-15 22:58 root         INFO     Succ: 45/74/190 | avg time: 59.46 s | avg iter: 126.32
+06-15 22:59 root         INFO     Expansion fails on C=C1CC2(CC[C@]1(C)[C@H]1CC[C@]3(C)[C@@H](N(C=O)C4CC4)CC[C@H]3[C@@H]1CC#C[Si](C)(C)C)OCCO2!
+06-15 22:59 root         INFO     Final search status | success value | iter: 7.337278994409526 | inf | 200
+06-15 22:59 root         INFO     Succ: 45/75/190 | avg time: 59.64 s | avg iter: 127.31
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Br)(Br)Br!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Br)(Br)Br!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Br)(Br)Br!
+06-15 23:00 root         INFO     Expansion fails on O=P(Br)(Br)Br!
+06-15 23:00 root         INFO     Expansion fails on O=O!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:00 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:01 root         INFO     Final search status | success value | iter: 6.8610366502814415 | inf | 200
+06-15 23:01 root         INFO     Succ: 45/76/190 | avg time: 59.68 s | avg iter: 128.26
+06-15 23:02 root         INFO     Synthesis route found!
+06-15 23:02 root         INFO     Final search status | success value | iter: 5.900015121930969 | 12.807770400913107 | 194
+06-15 23:02 root         INFO     Succ: 46/77/190 | avg time: 59.70 s | avg iter: 129.12
+06-15 23:02 root         INFO     Synthesis route found!
+06-15 23:02 root         INFO     Final search status | success value | iter: 0.17926660073418296 | 0.1792704496043428 | 2
+06-15 23:02 root         INFO     Succ: 47/78/190 | avg time: 58.94 s | avg iter: 127.49
+06-15 23:02 root         INFO     Synthesis route found!
+06-15 23:02 root         INFO     Final search status | success value | iter: 1.689660351005083 | 4.18174414717487 | 3
+06-15 23:02 root         INFO     Succ: 48/79/190 | avg time: 58.22 s | avg iter: 125.91
+06-15 23:02 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:02 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:02 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:02 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:02 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:02 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Final search status | success value | iter: 6.386636435473496 | inf | 200
+06-15 23:03 root         INFO     Succ: 48/80/190 | avg time: 58.65 s | avg iter: 126.84
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:03 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:04 root         INFO     Expansion fails on [Li]C#CS(=O)(=O)[O-]!
+06-15 23:04 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:04 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:04 root         INFO     Expansion fails on [Li]C#CS(=O)(=O)[O-]!
+06-15 23:04 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:04 root         INFO     Synthesis route found!
+06-15 23:04 root         INFO     Final search status | success value | iter: 6.297930764393014 | 13.20568604337515 | 127
+06-15 23:04 root         INFO     Succ: 49/81/190 | avg time: 58.41 s | avg iter: 126.84
+06-15 23:06 root         INFO     Final search status | success value | iter: 5.772397728330036 | inf | 200
+06-15 23:06 root         INFO     Succ: 49/82/190 | avg time: 59.42 s | avg iter: 127.73
+06-15 23:07 root         INFO     Final search status | success value | iter: 6.620509248415725 | inf | 200
+06-15 23:07 root         INFO     Succ: 49/83/190 | avg time: 59.66 s | avg iter: 128.60
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:08 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2ccc(F)c(Cl)c2F)CO1!
+06-15 23:09 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:09 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2cc(Cl)c(F)cc2F)CO1!
+06-15 23:09 root         INFO     Final search status | success value | iter: 7.322147104940447 | inf | 200
+06-15 23:09 root         INFO     Succ: 49/84/190 | avg time: 59.75 s | avg iter: 129.45
+06-15 23:10 root         INFO     Synthesis route found!
+06-15 23:10 root         INFO     Final search status | success value | iter: 5.039121389260204 | 10.153771012275078 | 152
+06-15 23:10 root         INFO     Succ: 50/85/190 | avg time: 60.04 s | avg iter: 129.72
+06-15 23:11 root         INFO     Final search status | success value | iter: 6.842245591912948 | inf | 200
+06-15 23:11 root         INFO     Succ: 50/86/190 | avg time: 60.25 s | avg iter: 130.53
+06-15 23:11 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:12 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:12 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:12 root         INFO     Synthesis route found!
+06-15 23:12 root         INFO     Final search status | success value | iter: 6.9078970920037115 | 13.815652370985848 | 103
+06-15 23:12 root         INFO     Succ: 51/87/190 | avg time: 60.08 s | avg iter: 130.22
+06-15 23:13 root         INFO     Final search status | success value | iter: 7.97114017523119 | inf | 200
+06-15 23:13 root         INFO     Succ: 51/88/190 | avg time: 60.37 s | avg iter: 131.01
+06-15 23:14 root         INFO     Synthesis route found!
+06-15 23:14 root         INFO     Final search status | success value | iter: 0.7424800195604853 | 0.7425032796895402 | 7
+06-15 23:14 root         INFO     Succ: 52/89/190 | avg time: 59.74 s | avg iter: 129.62
+06-15 23:15 root         INFO     Final search status | success value | iter: 7.386989960852096 | inf | 200
+06-15 23:15 root         INFO     Succ: 52/90/190 | avg time: 59.97 s | avg iter: 130.40
+06-15 23:16 root         INFO     Final search status | success value | iter: 7.47876092224337 | inf | 200
+06-15 23:16 root         INFO     Succ: 52/91/190 | avg time: 60.13 s | avg iter: 131.16
+06-15 23:16 root         INFO     Synthesis route found!
+06-15 23:16 root         INFO     Final search status | success value | iter: 0.9598587962661719 | 0.961950935821048 | 7
+06-15 23:16 root         INFO     Succ: 53/92/190 | avg time: 59.52 s | avg iter: 129.82
+06-15 23:16 root         INFO     Synthesis route found!
+06-15 23:16 root         INFO     Final search status | success value | iter: 0.6639312986754633 | 2.767700305093083 | 5
+06-15 23:16 root         INFO     Succ: 54/93/190 | avg time: 58.90 s | avg iter: 128.47
+06-15 23:16 root         INFO     Synthesis route found!
+06-15 23:16 root         INFO     Final search status | success value | iter: 0.1025722354521604 | 0.10300111578603349 | 4
+06-15 23:16 root         INFO     Succ: 55/94/190 | avg time: 58.28 s | avg iter: 127.15
+06-15 23:17 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:17 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:17 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:18 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:18 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:18 root         INFO     Final search status | success value | iter: 5.91695063383522 | inf | 200
+06-15 23:18 root         INFO     Succ: 55/95/190 | avg time: 58.91 s | avg iter: 127.92
+06-15 23:19 root         INFO     Synthesis route found!
+06-15 23:19 root         INFO     Final search status | success value | iter: 5.208530613922119 | 12.116285892904257 | 155
+06-15 23:19 root         INFO     Succ: 56/96/190 | avg time: 58.95 s | avg iter: 128.20
+06-15 23:20 root         INFO     Synthesis route found!
+06-15 23:20 root         INFO     Final search status | success value | iter: 5.645049204633274 | 12.354451862418282 | 79
+06-15 23:20 root         INFO     Succ: 57/97/190 | avg time: 58.60 s | avg iter: 127.69
+06-15 23:21 root         INFO     Synthesis route found!
+06-15 23:21 root         INFO     Final search status | success value | iter: 5.64525927127841 | 5.645293721150426 | 117
+06-15 23:21 root         INFO     Succ: 58/98/190 | avg time: 58.55 s | avg iter: 127.58
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:21 root         INFO     Synthesis route found!
+06-15 23:21 root         INFO     Final search status | success value | iter: 5.622472718635321 | 9.028564328321071 | 92
+06-15 23:21 root         INFO     Succ: 59/99/190 | avg time: 58.40 s | avg iter: 127.22
+06-15 23:22 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:22 root         INFO     Synthesis route found!
+06-15 23:22 root         INFO     Final search status | success value | iter: 7.900917562561201 | 13.94366929614324 | 165
+06-15 23:22 root         INFO     Succ: 60/100/190 | avg time: 58.34 s | avg iter: 127.60
+06-15 23:23 root         INFO     Expansion fails on C=NN=O!
+06-15 23:23 root         INFO     Final search status | success value | iter: 6.128260255875251 | inf | 200
+06-15 23:23 root         INFO     Succ: 60/101/190 | avg time: 58.52 s | avg iter: 128.32
+06-15 23:26 root         INFO     Final search status | success value | iter: 5.605914928836731 | inf | 200
+06-15 23:26 root         INFO     Succ: 60/102/190 | avg time: 59.24 s | avg iter: 129.02
+06-15 23:26 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:26 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:27 root         INFO     Final search status | success value | iter: 6.079406422980053 | inf | 200
+06-15 23:27 root         INFO     Succ: 60/103/190 | avg time: 59.64 s | avg iter: 129.71
+06-15 23:28 root         INFO     Synthesis route found!
+06-15 23:28 root         INFO     Final search status | success value | iter: 5.057067150044886 | 5.325624232427774 | 101
+06-15 23:28 root         INFO     Succ: 61/104/190 | avg time: 59.52 s | avg iter: 129.43
+06-15 23:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:29 root         INFO     Synthesis route found!
+06-15 23:29 root         INFO     Final search status | success value | iter: 7.901756908956825 | 13.944508642538864 | 194
+06-15 23:29 root         INFO     Succ: 62/105/190 | avg time: 59.55 s | avg iter: 130.05
+06-15 23:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:29 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:29 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:30 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:30 root         INFO     Synthesis route found!
+06-15 23:30 root         INFO     Final search status | success value | iter: 5.200934729171502 | 9.602766970025613 | 96
+06-15 23:30 root         INFO     Succ: 63/106/190 | avg time: 59.35 s | avg iter: 129.73
+06-15 23:30 root         INFO     Synthesis route found!
+06-15 23:30 root         INFO     Final search status | success value | iter: 3.745819779527251 | 6.729678313817056 | 27
+06-15 23:30 root         INFO     Succ: 64/107/190 | avg time: 58.94 s | avg iter: 128.77
+06-15 23:30 root         INFO     Synthesis route found!
+06-15 23:30 root         INFO     Final search status | success value | iter: 0.7741539856218013 | 0.7762461251766773 | 7
+06-15 23:30 root         INFO     Succ: 65/108/190 | avg time: 58.41 s | avg iter: 127.64
+06-15 23:31 root         INFO     Synthesis route found!
+06-15 23:31 root         INFO     Final search status | success value | iter: 4.900969420237901 | 4.9207164470641045 | 107
+06-15 23:31 root         INFO     Succ: 66/109/190 | avg time: 58.26 s | avg iter: 127.45
+06-15 23:31 root         INFO     Synthesis route found!
+06-15 23:31 root         INFO     Final search status | success value | iter: 5.649729438191801 | 5.880624687378319 | 62
+06-15 23:31 root         INFO     Succ: 67/110/190 | avg time: 57.95 s | avg iter: 126.85
+06-15 23:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:32 root         INFO     Synthesis route found!
+06-15 23:32 root         INFO     Final search status | success value | iter: 7.3286685166679755 | 7.338513827955058 | 138
+06-15 23:32 root         INFO     Succ: 68/111/190 | avg time: 57.84 s | avg iter: 126.95
+06-15 23:32 root         INFO     Synthesis route found!
+06-15 23:32 root         INFO     Final search status | success value | iter: 0.8787658645578373 | 1.4388384662845504 | 5
+06-15 23:32 root         INFO     Succ: 69/112/190 | avg time: 57.33 s | avg iter: 125.87
+06-15 23:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:33 root         INFO     Final search status | success value | iter: 6.338336733241229 | inf | 200
+06-15 23:33 root         INFO     Succ: 69/113/190 | avg time: 57.57 s | avg iter: 126.52
+06-15 23:33 root         INFO     Synthesis route found!
+06-15 23:33 root         INFO     Final search status | success value | iter: 0.3116651278508961 | 0.31174827629440227 | 7
+06-15 23:33 root         INFO     Succ: 70/114/190 | avg time: 57.08 s | avg iter: 125.47
+06-15 23:34 root         INFO     Expansion fails on O=C(OI(OC(=O)C(F)(F)F)c1ccc(F)cc1F)C(F)(F)F!
+06-15 23:34 root         INFO     Expansion fails on O=C(OI(OC(=O)C(F)(F)F)c1ccc(F)cc1F)C(F)(F)F!
+06-15 23:35 root         INFO     Final search status | success value | iter: 7.210648059197821 | inf | 200
+06-15 23:35 root         INFO     Succ: 70/115/190 | avg time: 57.18 s | avg iter: 126.12
+06-15 23:35 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:36 root         INFO     Final search status | success value | iter: 6.167043884930954 | inf | 200
+06-15 23:36 root         INFO     Succ: 70/116/190 | avg time: 57.34 s | avg iter: 126.76
+06-15 23:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:36 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+06-15 23:36 root         INFO     Expansion fails on Cn1oc(=O)nc1S(=O)[O-]!
+06-15 23:36 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:36 root         INFO     Expansion fails on Cn1oc(=O)nc1SC(=O)Cl!
+06-15 23:36 root         INFO     Expansion fails on Cn1oc(=O)nc1SC#N!
+06-15 23:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:36 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:37 root         INFO     Synthesis route found!
+06-15 23:37 root         INFO     Final search status | success value | iter: 6.909755675478079 | 6.967931817985885 | 198
+06-15 23:37 root         INFO     Succ: 71/117/190 | avg time: 57.34 s | avg iter: 127.37
+06-15 23:37 root         INFO     Synthesis route found!
+06-15 23:37 root         INFO     Final search status | success value | iter: 3.3351932028833735 | 7.2541701591357555 | 17
+06-15 23:37 root         INFO     Succ: 72/118/190 | avg time: 56.94 s | avg iter: 126.43
+06-15 23:39 root         INFO     Final search status | success value | iter: 5.524867541539791 | inf | 200
+06-15 23:39 root         INFO     Succ: 72/119/190 | avg time: 57.63 s | avg iter: 127.05
+06-15 23:41 root         INFO     Final search status | success value | iter: 8.126617196570884 | inf | 200
+06-15 23:41 root         INFO     Succ: 72/120/190 | avg time: 57.91 s | avg iter: 127.66
+06-15 23:41 root         INFO     Synthesis route found!
+06-15 23:41 root         INFO     Final search status | success value | iter: 0.758937297538694 | 7.6666925765208305 | 7
+06-15 23:41 root         INFO     Succ: 73/121/190 | avg time: 57.44 s | avg iter: 126.66
+06-15 23:41 root         INFO     Synthesis route found!
+06-15 23:41 root         INFO     Final search status | success value | iter: 5.690026535765687 | 6.992400402789305 | 49
+06-15 23:41 root         INFO     Succ: 74/122/190 | avg time: 57.11 s | avg iter: 126.02
+06-15 23:41 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:41 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:42 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:42 root         INFO     Synthesis route found!
+06-15 23:42 root         INFO     Final search status | success value | iter: 6.907771158258234 | 13.81552643724037 | 104
+06-15 23:42 root         INFO     Succ: 75/123/190 | avg time: 57.02 s | avg iter: 125.85
+06-15 23:44 root         INFO     Final search status | success value | iter: 5.402254182073808 | inf | 200
+06-15 23:44 root         INFO     Succ: 75/124/190 | avg time: 57.67 s | avg iter: 126.44
+06-15 23:45 root         INFO     Synthesis route found!
+06-15 23:45 root         INFO     Final search status | success value | iter: 5.73415494751344 | 12.641910226495575 | 191
+06-15 23:45 root         INFO     Succ: 76/125/190 | avg time: 57.69 s | avg iter: 126.96
+06-15 23:46 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:46 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:46 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:46 root         INFO     Final search status | success value | iter: 6.286560796157833 | inf | 200
+06-15 23:46 root         INFO     Succ: 76/126/190 | avg time: 57.78 s | avg iter: 127.54
+06-15 23:49 root         INFO     Final search status | success value | iter: 5.857221742698086 | inf | 200
+06-15 23:49 root         INFO     Succ: 76/127/190 | avg time: 58.41 s | avg iter: 128.11
+06-15 23:49 root         INFO     Expansion fails on O=P(Cl)(Cl)Cl!
+06-15 23:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:49 root         INFO     Synthesis route found!
+06-15 23:49 root         INFO     Final search status | success value | iter: 3.809322019464006 | 3.8093265264867524 | 17
+06-15 23:49 root         INFO     Succ: 77/128/190 | avg time: 58.00 s | avg iter: 127.24
+06-15 23:49 root         INFO     Synthesis route found!
+06-15 23:49 root         INFO     Final search status | success value | iter: 1.216594918007412 | 1.2186870575622881 | 7
+06-15 23:49 root         INFO     Succ: 78/129/190 | avg time: 57.57 s | avg iter: 126.31
+06-15 23:49 root         INFO     Synthesis route found!
+06-15 23:49 root         INFO     Final search status | success value | iter: 6.907755278982137 | 6.907955772128477 | 121
+06-15 23:49 root         INFO     Succ: 79/130/190 | avg time: 57.46 s | avg iter: 126.27
+06-15 23:51 root         INFO     Final search status | success value | iter: 6.601571895343353 | inf | 200
+06-15 23:51 root         INFO     Succ: 79/131/190 | avg time: 57.68 s | avg iter: 126.83
+06-15 23:51 root         INFO     Expansion fails on [O-][I+2]([O-])O[I+2]([O-])[O-]!
+06-15 23:52 root         INFO     Final search status | success value | iter: 6.139978915756591 | inf | 200
+06-15 23:52 root         INFO     Succ: 79/132/190 | avg time: 57.81 s | avg iter: 127.39
+06-15 23:52 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:52 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:53 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:53 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:53 root         INFO     Synthesis route found!
+06-15 23:53 root         INFO     Final search status | success value | iter: 5.451413519641381 | 5.460923299786915 | 117
+06-15 23:53 root         INFO     Succ: 80/133/190 | avg time: 57.70 s | avg iter: 127.31
+06-15 23:53 root         INFO     Synthesis route found!
+06-15 23:53 root         INFO     Final search status | success value | iter: 0.14948827140785456 | 0.1495010086398438 | 8
+06-15 23:53 root         INFO     Succ: 81/134/190 | avg time: 57.29 s | avg iter: 126.42
+06-15 23:54 root         INFO     Final search status | success value | iter: 7.415499869319774 | inf | 200
+06-15 23:54 root         INFO     Succ: 81/135/190 | avg time: 57.43 s | avg iter: 126.96
+06-15 23:54 root         INFO     Synthesis route found!
+06-15 23:54 root         INFO     Final search status | success value | iter: 7.00066834225609 | 7.000679246202843 | 50
+06-15 23:54 root         INFO     Succ: 82/136/190 | avg time: 57.13 s | avg iter: 126.40
+06-15 23:57 root         INFO     Final search status | success value | iter: 6.198891783733787 | inf | 200
+06-15 23:57 root         INFO     Succ: 82/137/190 | avg time: 57.98 s | avg iter: 126.93
+06-15 23:57 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:57 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-15 23:58 root         INFO     Synthesis route found!
+06-15 23:58 root         INFO     Final search status | success value | iter: 5.12127748010301 | 9.694321744215403 | 97
+06-15 23:58 root         INFO     Succ: 83/138/190 | avg time: 57.82 s | avg iter: 126.72
+06-15 23:58 root         INFO     Synthesis route found!
+06-15 23:58 root         INFO     Final search status | success value | iter: 1.6893219154119297 | 4.181405711581717 | 2
+06-15 23:58 root         INFO     Succ: 84/139/190 | avg time: 57.41 s | avg iter: 125.82
+06-16 00:00 root         INFO     Final search status | success value | iter: 5.894099711388506 | inf | 200
+06-16 00:00 root         INFO     Succ: 84/140/190 | avg time: 58.00 s | avg iter: 126.35
+06-16 00:01 root         INFO     Final search status | success value | iter: 6.907755278982137 | inf | 200
+06-16 00:01 root         INFO     Succ: 84/141/190 | avg time: 58.05 s | avg iter: 126.87
+06-16 00:02 root         INFO     Final search status | success value | iter: 6.160714207757213 | inf | 200
+06-16 00:02 root         INFO     Succ: 84/142/190 | avg time: 58.06 s | avg iter: 127.39
+06-16 00:02 root         INFO     Synthesis route found!
+06-16 00:02 root         INFO     Final search status | success value | iter: 0.05458945551871352 | 0.05543146586349089 | 3
+06-16 00:02 root         INFO     Succ: 85/143/190 | avg time: 57.66 s | avg iter: 126.52
+06-16 00:04 root         INFO     Synthesis route found!
+06-16 00:04 root         INFO     Final search status | success value | iter: 6.651796321699779 | 13.323810382230482 | 199
+06-16 00:04 root         INFO     Succ: 86/144/190 | avg time: 57.84 s | avg iter: 127.02
+06-16 00:04 root         INFO     Synthesis route found!
+06-16 00:04 root         INFO     Final search status | success value | iter: 0.006772983084597365 | 0.12211687132066922 | 4
+06-16 00:04 root         INFO     Succ: 87/145/190 | avg time: 57.45 s | avg iter: 126.17
+06-16 00:04 root         INFO     Synthesis route found!
+06-16 00:04 root         INFO     Final search status | success value | iter: 0.5279430767639864 | 0.5279433132766196 | 8
+06-16 00:04 root         INFO     Succ: 88/146/190 | avg time: 57.07 s | avg iter: 125.36
+06-16 00:04 root         INFO     Synthesis route found!
+06-16 00:04 root         INFO     Final search status | success value | iter: 0.14907909811088474 | 0.14909183534287399 | 6
+06-16 00:04 root         INFO     Succ: 89/147/190 | avg time: 56.71 s | avg iter: 124.55
+06-16 00:05 root         INFO     Final search status | success value | iter: 7.153743239115703 | inf | 200
+06-16 00:05 root         INFO     Succ: 89/148/190 | avg time: 56.86 s | avg iter: 125.06
+06-16 00:05 root         INFO     Synthesis route found!
+06-16 00:05 root         INFO     Final search status | success value | iter: 0.0003562628078060406 | 0.002448402362682142 | 5
+06-16 00:05 root         INFO     Succ: 90/149/190 | avg time: 56.48 s | avg iter: 124.26
+06-16 00:07 root         INFO     Final search status | success value | iter: 5.483468655797107 | inf | 200
+06-16 00:07 root         INFO     Succ: 90/150/190 | avg time: 57.00 s | avg iter: 124.76
+06-16 00:10 root         INFO     Final search status | success value | iter: 5.611584143823126 | inf | 200
+06-16 00:10 root         INFO     Succ: 90/151/190 | avg time: 57.51 s | avg iter: 125.26
+06-16 00:10 root         INFO     Synthesis route found!
+06-16 00:10 root         INFO     Final search status | success value | iter: 0.15116351199993838 | 0.15117624923192766 | 8
+06-16 00:10 root         INFO     Succ: 91/152/190 | avg time: 57.16 s | avg iter: 124.49
+06-16 00:12 root         INFO     Final search status | success value | iter: 5.466041071722074 | inf | 200
+06-16 00:12 root         INFO     Succ: 91/153/190 | avg time: 57.68 s | avg iter: 124.98
+06-16 00:12 root         INFO     Synthesis route found!
+06-16 00:12 root         INFO     Final search status | success value | iter: 1.8608567984381583 | 1.8609723615393372 | 4
+06-16 00:12 root         INFO     Succ: 92/154/190 | avg time: 57.31 s | avg iter: 124.19
+06-16 00:13 root         INFO     Synthesis route found!
+06-16 00:13 root         INFO     Final search status | success value | iter: 4.900903545830971 | 4.920650572657174 | 105
+06-16 00:13 root         INFO     Succ: 93/155/190 | avg time: 57.19 s | avg iter: 124.07
+06-16 00:13 root         INFO     Synthesis route found!
+06-16 00:13 root         INFO     Final search status | success value | iter: 0.5652798320001224 | 0.9929881061261816 | 6
+06-16 00:13 root         INFO     Succ: 94/156/190 | avg time: 56.83 s | avg iter: 123.31
+06-16 00:14 root         INFO     Final search status | success value | iter: 5.958636243989622 | inf | 200
+06-16 00:14 root         INFO     Succ: 94/157/190 | avg time: 56.90 s | avg iter: 123.80
+06-16 00:16 root         INFO     Final search status | success value | iter: 5.829344485485072 | inf | 200
+06-16 00:16 root         INFO     Succ: 94/158/190 | avg time: 57.31 s | avg iter: 124.28
+06-16 00:17 root         INFO     Expansion fails on O=O!
+06-16 00:17 root         INFO     Final search status | success value | iter: 7.934685615699713 | inf | 200
+06-16 00:17 root         INFO     Succ: 94/159/190 | avg time: 57.46 s | avg iter: 124.76
+06-16 00:18 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:18 root         INFO     Final search status | success value | iter: 6.170162082952293 | inf | 200
+06-16 00:18 root         INFO     Succ: 94/160/190 | avg time: 57.55 s | avg iter: 125.23
+06-16 00:21 root         INFO     Final search status | success value | iter: 5.669022273134327 | inf | 200
+06-16 00:21 root         INFO     Succ: 94/161/190 | avg time: 58.08 s | avg iter: 125.70
+06-16 00:21 root         INFO     Synthesis route found!
+06-16 00:21 root         INFO     Final search status | success value | iter: 1.9162757894894888 | 2.8596138229710037 | 12
+06-16 00:21 root         INFO     Succ: 95/162/190 | avg time: 57.74 s | avg iter: 124.99
+06-16 00:25 root         INFO     Final search status | success value | iter: 5.375069323546388 | inf | 200
+06-16 00:25 root         INFO     Succ: 95/163/190 | avg time: 58.97 s | avg iter: 125.45
+06-16 00:26 root         INFO     Synthesis route found!
+06-16 00:26 root         INFO     Final search status | success value | iter: 6.910208965861056 | 7.044002305986072 | 145
+06-16 00:26 root         INFO     Succ: 96/164/190 | avg time: 58.99 s | avg iter: 125.57
+06-16 00:27 root         INFO     Final search status | success value | iter: 6.1733509503684765 | inf | 200
+06-16 00:27 root         INFO     Succ: 96/165/190 | avg time: 58.99 s | avg iter: 126.02
+06-16 00:28 root         INFO     Final search status | success value | iter: 6.708946684877301 | inf | 200
+06-16 00:28 root         INFO     Succ: 96/166/190 | avg time: 59.10 s | avg iter: 126.47
+06-16 00:29 root         INFO     Synthesis route found!
+06-16 00:29 root         INFO     Final search status | success value | iter: 5.778982968302193 | 5.779086882836974 | 122
+06-16 00:29 root         INFO     Succ: 97/167/190 | avg time: 59.03 s | avg iter: 126.44
+06-16 00:29 root         INFO     Synthesis route found!
+06-16 00:29 root         INFO     Final search status | success value | iter: 0.6639066179077988 | 2.767675624325418 | 4
+06-16 00:29 root         INFO     Succ: 98/168/190 | avg time: 58.68 s | avg iter: 125.71
+06-16 00:29 root         INFO     Synthesis route found!
+06-16 00:29 root         INFO     Final search status | success value | iter: 0.01437603135703217 | 0.40803303597633195 | 2
+06-16 00:29 root         INFO     Succ: 99/169/190 | avg time: 58.34 s | avg iter: 124.98
+06-16 00:30 root         INFO     Synthesis route found!
+06-16 00:30 root         INFO     Final search status | success value | iter: 6.907755278982137 | 6.919384684439255 | 158
+06-16 00:30 root         INFO     Succ: 100/170/190 | avg time: 58.30 s | avg iter: 125.18
+06-16 00:30 root         INFO     Synthesis route found!
+06-16 00:30 root         INFO     Final search status | success value | iter: 0.03505708144621266 | 0.03714922100108876 | 6
+06-16 00:30 root         INFO     Succ: 101/171/190 | avg time: 57.97 s | avg iter: 124.48
+06-16 00:31 root         INFO     Synthesis route found!
+06-16 00:31 root         INFO     Final search status | success value | iter: 6.831176853134502 | 13.738932132116638 | 124
+06-16 00:31 root         INFO     Succ: 102/172/190 | avg time: 58.01 s | avg iter: 124.48
+06-16 00:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:32 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:33 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:33 root         INFO     Final search status | success value | iter: 6.527263061780567 | inf | 200
+06-16 00:33 root         INFO     Succ: 102/173/190 | avg time: 58.19 s | avg iter: 124.91
+06-16 00:34 root         INFO     Final search status | success value | iter: 6.110092405184364 | inf | 200
+06-16 00:34 root         INFO     Succ: 102/174/190 | avg time: 58.28 s | avg iter: 125.34
+06-16 00:36 root         INFO     Final search status | success value | iter: 5.635299222523784 | inf | 200
+06-16 00:36 root         INFO     Succ: 102/175/190 | avg time: 58.65 s | avg iter: 125.77
+06-16 00:36 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:36 root         INFO     Synthesis route found!
+06-16 00:36 root         INFO     Final search status | success value | iter: 7.595210392132531 | 14.502965671114666 | 82
+06-16 00:36 root         INFO     Succ: 103/176/190 | avg time: 58.46 s | avg iter: 125.52
+06-16 00:37 root         INFO     Synthesis route found!
+06-16 00:37 root         INFO     Final search status | success value | iter: 6.29440694263169 | 13.202162221613829 | 152
+06-16 00:37 root         INFO     Succ: 104/177/190 | avg time: 58.42 s | avg iter: 125.67
+06-16 00:38 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:39 root         INFO     Final search status | success value | iter: 5.928613330038679 | inf | 200
+06-16 00:39 root         INFO     Succ: 104/178/190 | avg time: 58.61 s | avg iter: 126.09
+06-16 00:41 root         INFO     Final search status | success value | iter: 6.235641698106984 | inf | 200
+06-16 00:41 root         INFO     Succ: 104/179/190 | avg time: 59.10 s | avg iter: 126.50
+06-16 00:43 root         INFO     Final search status | success value | iter: 8.179546696091279 | inf | 200
+06-16 00:43 root         INFO     Succ: 104/180/190 | avg time: 59.20 s | avg iter: 126.91
+06-16 00:43 root         INFO     Synthesis route found!
+06-16 00:43 root         INFO     Final search status | success value | iter: 0.015260363621936848 | 0.16353904608851533 | 4
+06-16 00:43 root         INFO     Succ: 105/181/190 | avg time: 58.88 s | avg iter: 126.23
+06-16 00:43 root         INFO     Synthesis route found!
+06-16 00:43 root         INFO     Final search status | success value | iter: 6.361801742215967 | 9.380355516593427 | 21
+06-16 00:43 root         INFO     Succ: 106/182/190 | avg time: 58.61 s | avg iter: 125.65
+06-16 00:43 root         INFO     Synthesis route found!
+06-16 00:43 root         INFO     Final search status | success value | iter: 1.9456036506955554 | 1.9456391219444162 | 13
+06-16 00:43 root         INFO     Succ: 107/183/190 | avg time: 58.31 s | avg iter: 125.04
+06-16 00:43 root         INFO     Synthesis route found!
+06-16 00:43 root         INFO     Final search status | success value | iter: 3.5318604065191015 | 5.271613119137793 | 21
+06-16 00:43 root         INFO     Succ: 108/184/190 | avg time: 58.03 s | avg iter: 124.47
+06-16 00:44 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:44 root         INFO     Final search status | success value | iter: 6.272761433627559 | inf | 200
+06-16 00:44 root         INFO     Succ: 108/185/190 | avg time: 58.07 s | avg iter: 124.88
+06-16 00:44 root         INFO     Synthesis route found!
+06-16 00:44 root         INFO     Final search status | success value | iter: 0.006028419452233244 | 0.00623468446402021 | 4
+06-16 00:44 root         INFO     Succ: 109/186/190 | avg time: 57.76 s | avg iter: 124.23
+06-16 00:45 root         INFO     Final search status | success value | iter: 6.594039480853315 | inf | 200
+06-16 00:45 root         INFO     Succ: 109/187/190 | avg time: 57.92 s | avg iter: 124.64
+06-16 00:46 root         INFO     Synthesis route found!
+06-16 00:46 root         INFO     Final search status | success value | iter: 0.15159137976949125 | 0.1516041170014805 | 8
+06-16 00:46 root         INFO     Succ: 110/188/190 | avg time: 57.63 s | avg iter: 124.02
+06-16 00:48 root         INFO     Final search status | success value | iter: 5.772130363162647 | inf | 200
+06-16 00:48 root         INFO     Succ: 110/189/190 | avg time: 57.99 s | avg iter: 124.42
+06-16 00:48 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:48 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:48 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:48 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:49 root         INFO     Expansion fails on O=S(Cl)Cl!
+06-16 00:50 root         INFO     Synthesis route found!
+06-16 00:50 root         INFO     Final search status | success value | iter: 5.944317163160567 | 11.70315816389827 | 198
+06-16 00:50 root         INFO     Succ: 111/190/190 | avg time: 58.29 s | avg iter: 124.81

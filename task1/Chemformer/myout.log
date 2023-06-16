@@ -1,0 +1,67 @@
+2023-06-16 13:56:48.193687: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-06-16 13:56:55.886960: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2023-06-16 13:56:55.887076: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-06-16 13:56:55.887089: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+/home/csu/anaconda3/envs/myenv/lib/python3.7/site-packages/pytorch_lightning/utilities/seed.py:48: LightningDeprecationWarning: `pytorch_lightning.utilities.seed.seed_everything` has been deprecated in v1.8.0 and will be removed in v2.0.0. Please use `lightning_fabric.utilities.seed.seed_everything` instead.
+  "`pytorch_lightning.utilities.seed.seed_everything` has been deprecated in v1.8.0 and will be"
+Global seed set to 1
+/home/csu/anaconda3/envs/myenv/lib/python3.7/site-packages/pytorch_lightning/utilities/migration/migration.py:200: PossibleUserWarning: You have multiple `ModelCheckpoint` callback states in this checkpoint, but we found state keys that would end up colliding with each other after an upgrade, which means we can't differentiate which of your checkpoint callbacks needs which states. At least one of your `ModelCheckpoint` callbacks will not be able to reload the state.
+  category=PossibleUserWarning,
+Lightning automatically upgraded your loaded checkpoint from v1.2.3 to v1.9.5. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint --file models/bart/pretrained/fine_tuned/last.ckpt`
+/home/csu/anaconda3/envs/myenv/lib/python3.7/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:479: LightningDeprecationWarning: Setting `Trainer(gpus=1)` is deprecated in v1.7 and will be removed in v2.0. Please use `Trainer(accelerator='gpu', devices=1)` instead.
+  f"Setting `Trainer(gpus={gpus!r})` is deprecated in v1.7 and will be removed"
+Using 16bit None Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+`Trainer(limit_test_batches=1.0)` was configured so 100% of the batches will be used..
+You are using a CUDA device ('NVIDIA GeForce RTX 4090') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Building tokeniser...
+Finished tokeniser.
+Reading dataset...
+Using USPTO 50K dataset without type tokens.
+Finished dataset.
+Building data module...
+Using a batch size of 64.
+Building data module for forward prediction task...
+Finished datamodule.
+Loading model...
+Finished model.
+Building trainer...
+Finished trainer.
+Evaluating model...
+Testing: 0it [00:00, ?it/s]Testing:   0%|          | 0/79 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/79 [00:00<?, ?it/s]Testing DataLoader 0:   1%|▏         | 1/79 [00:11<15:02, 11.57s/it]Testing DataLoader 0:   3%|▎         | 2/79 [00:22<14:36, 11.38s/it]Testing DataLoader 0:   4%|▍         | 3/79 [00:32<13:47, 10.89s/it]Testing DataLoader 0:   5%|▌         | 4/79 [00:42<13:20, 10.68s/it]Testing DataLoader 0:   6%|▋         | 5/79 [00:54<13:20, 10.82s/it]Testing DataLoader 0:   8%|▊         | 6/79 [01:08<13:58, 11.48s/it]Testing DataLoader 0:   9%|▉         | 7/79 [01:19<13:40, 11.39s/it]Testing DataLoader 0:  10%|█         | 8/79 [01:30<13:19, 11.26s/it]Testing DataLoader 0:  11%|█▏        | 9/79 [01:40<13:00, 11.15s/it]Testing DataLoader 0:  13%|█▎        | 10/79 [01:54<13:08, 11.43s/it]Testing DataLoader 0:  14%|█▍        | 11/79 [02:06<13:04, 11.54s/it]Testing DataLoader 0:  15%|█▌        | 12/79 [02:40<14:58, 13.41s/it]Testing DataLoader 0:  16%|█▋        | 13/79 [03:02<15:26, 14.04s/it]Testing DataLoader 0:  18%|█▊        | 14/79 [03:29<16:13, 14.97s/it]Testing DataLoader 0:  19%|█▉        | 15/79 [03:55<16:45, 15.71s/it]Testing DataLoader 0:  20%|██        | 16/79 [04:22<17:15, 16.43s/it]Testing DataLoader 0:  22%|██▏       | 17/79 [04:48<17:33, 16.99s/it]Testing DataLoader 0:  23%|██▎       | 18/79 [05:18<17:58, 17.68s/it]Testing DataLoader 0:  24%|██▍       | 19/79 [05:32<17:31, 17.52s/it]Testing DataLoader 0:  25%|██▌       | 20/79 [05:55<17:29, 17.78s/it]Testing DataLoader 0:  27%|██▋       | 21/79 [06:22<17:36, 18.22s/it]Testing DataLoader 0:  28%|██▊       | 22/79 [06:46<17:34, 18.50s/it]Testing DataLoader 0:  29%|██▉       | 23/79 [07:04<17:13, 18.45s/it]Testing DataLoader 0:  30%|███       | 24/79 [07:35<17:24, 18.99s/it]Testing DataLoader 0:  32%|███▏      | 25/79 [07:59<17:14, 19.17s/it]Testing DataLoader 0:  33%|███▎      | 26/79 [08:22<17:03, 19.31s/it]Testing DataLoader 0:  34%|███▍      | 27/79 [08:45<16:51, 19.46s/it]Testing DataLoader 0:  35%|███▌      | 28/79 [09:04<16:31, 19.45s/it]Testing DataLoader 0:  37%|███▋      | 29/79 [09:32<16:27, 19.75s/it]Testing DataLoader 0:  38%|███▊      | 30/79 [09:55<16:13, 19.87s/it]Testing DataLoader 0:  39%|███▉      | 31/79 [10:14<15:50, 19.81s/it]Testing DataLoader 0:  41%|████      | 32/79 [10:35<15:33, 19.86s/it]Testing DataLoader 0:  42%|████▏     | 33/79 [11:02<15:24, 20.09s/it]Testing DataLoader 0:  43%|████▎     | 34/79 [11:28<15:10, 20.24s/it]Testing DataLoader 0:  44%|████▍     | 35/79 [11:54<14:58, 20.42s/it]Testing DataLoader 0:  46%|████▌     | 36/79 [12:11<14:33, 20.31s/it]Testing DataLoader 0:  47%|████▋     | 37/79 [12:36<14:19, 20.46s/it]Testing DataLoader 0:  48%|████▊     | 38/79 [13:01<14:03, 20.57s/it]Testing DataLoader 0:  49%|████▉     | 39/79 [13:25<13:45, 20.65s/it]Testing DataLoader 0:  51%|█████     | 40/79 [13:47<13:26, 20.68s/it]Testing DataLoader 0:  52%|█████▏    | 41/79 [14:13<13:11, 20.82s/it]Testing DataLoader 0:  53%|█████▎    | 42/79 [14:37<12:53, 20.90s/it]Testing DataLoader 0:  54%|█████▍    | 43/79 [15:04<12:37, 21.03s/it]Testing DataLoader 0:  56%|█████▌    | 44/79 [15:21<12:13, 20.95s/it]Testing DataLoader 0:  57%|█████▋    | 45/79 [15:46<11:54, 21.03s/it]Testing DataLoader 0:  58%|█████▊    | 46/79 [16:11<11:37, 21.12s/it]Testing DataLoader 0:  59%|█████▉    | 47/79 [16:37<11:19, 21.23s/it]Testing DataLoader 0:  61%|██████    | 48/79 [16:57<10:57, 21.20s/it]Testing DataLoader 0:  62%|██████▏   | 49/79 [17:18<10:35, 21.18s/it]Testing DataLoader 0:  63%|██████▎   | 50/79 [17:41<10:15, 21.23s/it]Testing DataLoader 0:  65%|██████▍   | 51/79 [18:09<09:58, 21.37s/it]Testing DataLoader 0:  66%|██████▌   | 52/79 [18:33<09:38, 21.41s/it]Testing DataLoader 0:  67%|██████▋   | 53/79 [18:52<09:15, 21.36s/it]Testing DataLoader 0:  68%|██████▊   | 54/79 [19:15<08:55, 21.40s/it]Testing DataLoader 0:  70%|██████▉   | 55/79 [19:41<08:35, 21.48s/it]Testing DataLoader 0:  71%|███████   | 56/79 [20:05<08:15, 21.53s/it]Testing DataLoader 0:  72%|███████▏  | 57/79 [20:26<07:53, 21.51s/it]Testing DataLoader 0:  73%|███████▎  | 58/79 [20:43<07:30, 21.45s/it]Testing DataLoader 0:  75%|███████▍  | 59/79 [21:04<07:08, 21.44s/it]Testing DataLoader 0:  76%|███████▌  | 60/79 [21:28<06:48, 21.47s/it]Testing DataLoader 0:  77%|███████▋  | 61/79 [21:50<06:26, 21.48s/it]Testing DataLoader 0:  78%|███████▊  | 62/79 [22:07<06:03, 21.41s/it]Testing DataLoader 0:  80%|███████▉  | 63/79 [22:27<05:42, 21.39s/it]Testing DataLoader 0:  81%|████████  | 64/79 [22:50<05:21, 21.41s/it]Testing DataLoader 0:  82%|████████▏ | 65/79 [23:11<04:59, 21.41s/it]Testing DataLoader 0:  84%|████████▎ | 66/79 [23:38<04:39, 21.49s/it]Testing DataLoader 0:  85%|████████▍ | 67/79 [24:01<04:18, 21.51s/it]Testing DataLoader 0:  86%|████████▌ | 68/79 [24:22<03:56, 21.50s/it]Testing DataLoader 0:  87%|████████▋ | 69/79 [24:48<03:35, 21.57s/it]Testing DataLoader 0:  89%|████████▊ | 70/79 [25:06<03:13, 21.52s/it]Testing DataLoader 0:  90%|████████▉ | 71/79 [25:34<02:52, 21.61s/it]Testing DataLoader 0:  91%|█████████ | 72/79 [25:58<02:31, 21.64s/it]Testing DataLoader 0:  92%|█████████▏| 73/79 [26:19<02:09, 21.64s/it]Testing DataLoader 0:  94%|█████████▎| 74/79 [26:47<01:48, 21.72s/it]Testing DataLoader 0:  95%|█████████▍| 75/79 [27:15<01:27, 21.80s/it]Testing DataLoader 0:  96%|█████████▌| 76/79 [27:45<01:05, 21.92s/it]Testing DataLoader 0:  97%|█████████▋| 77/79 [28:14<00:44, 22.00s/it]Testing DataLoader 0:  99%|█████████▊| 78/79 [28:32<00:21, 21.95s/it]Testing DataLoader 0: 100%|██████████| 79/79 [28:45<00:00, 21.84s/it]Testing DataLoader 0: 100%|██████████| 79/79 [28:45<00:00, 21.84s/it]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+         Test metric                   DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+     test_invalid_smiles           0.13746044039726257
+          test_loss                 1.1628696918487549
+   test_molecular_accuracy        0.0037579115014523268
+test_molecular_top_10_accuracy     0.006724683567881584
+test_molecular_top_1_accuracy     0.0037579115014523268
+test_molecular_top_2_accuracy      0.005735759623348713
+test_molecular_top_3_accuracy      0.006329114083200693
+test_molecular_top_5_accuracy      0.006526898592710495
+       test_perplexity            4.1300854292103395e-08
+        test_token_acc              0.8909793496131897
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Results for model: models/bart/pretrained/fine_tuned/last.ckpt
+Item                     Result
+test_loss                 1.1629
+test_token_acc            0.8910
+test_perplexity           0.0000
+test_invalid_smiles       0.1375
+test_molecular_accuracy   0.0038
+test_molecular_top_1_accuracy 0.0038
+test_molecular_top_2_accuracy 0.0057
+test_molecular_top_3_accuracy 0.0063
+test_molecular_top_5_accuracy 0.0065
+test_molecular_top_10_accuracy 0.0067
+Finished evaluation.
+Printing unknown tokens...
+Token     Count
+
+Complete.

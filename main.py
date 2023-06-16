@@ -1,6 +1,7 @@
 import numpy as np
 import time
 import pickle
+import torch
 
 from rdchiral.template_extractor import extract_from_reaction
 from rdchiral.main import rdchiralRunText
@@ -51,7 +52,7 @@ def get_template(reaction):
 
 
 ############## task 2
-## train.pkl: dict{'packed_fp':array[298581,256], 'values':tensor[398581,1]}
+## train.pkl: dict{'packed_fp':array[398581,256], 'values':tensor[398581,1]}
 ## test.pkl: dict{'packed_fp':array[125240,256], 'values':tensor[125240,1]}
 
 # with open('./data/MoleculeEvaluationData/test.pkl', 'rb') as f:
@@ -73,3 +74,36 @@ def get_template(reaction):
 
 # with open('./data/Multi-Step/starting_mols.pkl', 'rb') as f:
 #     data = pickle.load(f)
+
+## origin_dict.csv  ,mol,idx  1+23081629
+## routes_possible_test_hard.pkl  =  target_mol_route.pkl
+
+# with open('./retro_star/retro_star/dataset/routes_possible_test_hard.pkl', 'rb') as f:
+#     data = pickle.load(f)
+# for line in data:
+#     print(len(line))
+
+# random_mols = []
+# with open('./data/Multi-Step/starting_mols.pkl', 'rb') as f:
+#     data = pickle.load(f)
+# data = list(data)[:1000]
+# data = np.array(data)
+# with open('./data/MoleculeEvaluationData/train.pkl', 'rb') as f:
+#     data2 = pickle.load(f)
+# values = data2['values'].numpy().flatten()[:1000]
+# del data2
+
+# saved = [f'{data[i]},{str(values[i])}\n' for i in range(len(values))]
+# with open('./data/MoleculeEvaluationData/fake_train.csv', 'w') as f:
+#     f.writelines(saved)
+
+with open('./data/MoleculeEvaluationData/train.pkl', 'rb') as f:
+    data = pickle.load(f)
+packed_fp = data['packed_fp']
+fp=np.unpackbits(packed_fp).reshape(-1,2048)
+print(fp.shape)
+fp = fp[:1000]
+print(fp.shape)
+fp = np.repeat(fp,2,axis=0).reshape(1000,2,2048)
+print(fp.shape)
+np.save('./data/MoleculeEvaluationData/fake_train_fp_2.npy', fp)

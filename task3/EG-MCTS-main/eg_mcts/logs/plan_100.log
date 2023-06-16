@@ -1,0 +1,576 @@
+06-15 16:03 root         INFO     Loading building blocks from dataset/origin_dict.csv
+06-15 16:04 root         INFO     totally 23081629 building blocks loaded
+06-15 16:04 root         INFO     190 routes extracted from dataset/test_mols.pkl loaded
+06-15 16:04 root         INFO     Templates: one_step_model/template_rules_1.dat
+06-15 16:04 root         INFO     Loading one-step-retrosynthetic model from one_step_model/retro_star_value_ours.ckpt
+06-15 16:04 root         INFO     Loading Experience Guidance Network from saved_EG_fn/best_egn_for_emol.pt
+06-15 16:04 root         INFO     information: reation_node number:  629  |  mol_node number:  908  | iter:  62
+06-15 16:04 root         INFO     Final search status | expand model call | value model call | iter: True | 62 | 687 | 62
+06-15 16:04 root         INFO     Succ: 1/1/190 | avg time: 30.86 s | avg iter: 62.00 | avg expand_model_call: 62.00 | avg value_model_call: 687.00 | avg reaction_nodes_number: 629.00 | avg mol_nodes_number: 908.00
+06-15 16:04 root         INFO     information: reation_node number:  277  |  mol_node number:  378  | iter:  16
+06-15 16:04 root         INFO     Final search status | expand model call | value model call | iter: True | 16 | 299 | 16
+06-15 16:04 root         INFO     Succ: 2/2/190 | avg time: 17.96 s | avg iter: 39.00 | avg expand_model_call: 39.00 | avg value_model_call: 493.00 | avg reaction_nodes_number: 453.00 | avg mol_nodes_number: 643.00
+06-15 16:04 root         INFO     information: reation_node number:  41  |  mol_node number:  72  | iter:  3
+06-15 16:04 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 41 | 3
+06-15 16:04 root         INFO     Succ: 3/3/190 | avg time: 12.24 s | avg iter: 27.00 | avg expand_model_call: 27.00 | avg value_model_call: 342.33 | avg reaction_nodes_number: 315.67 | avg mol_nodes_number: 452.67
+06-15 16:05 root         INFO     information: reation_node number:  53  |  mol_node number:  92  | iter:  5
+06-15 16:05 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 54 | 5
+06-15 16:05 root         INFO     Succ: 4/4/190 | avg time: 10.08 s | avg iter: 21.50 | avg expand_model_call: 21.50 | avg value_model_call: 270.25 | avg reaction_nodes_number: 250.00 | avg mol_nodes_number: 362.50
+06-15 16:05 root         INFO     information: reation_node number:  1437  |  mol_node number:  1767  | iter:  100
+06-15 16:05 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1521 | 100
+06-15 16:05 root         INFO     Succ: 4/5/190 | avg time: 16.74 s | avg iter: 37.20 | avg expand_model_call: 37.20 | avg value_model_call: 520.40 | avg reaction_nodes_number: 487.40 | avg mol_nodes_number: 643.40
+06-15 16:05 root         INFO     information: reation_node number:  83  |  mol_node number:  122  | iter:  5
+06-15 16:05 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 85 | 5
+06-15 16:05 root         INFO     Succ: 5/6/190 | avg time: 14.58 s | avg iter: 31.83 | avg expand_model_call: 31.83 | avg value_model_call: 447.83 | avg reaction_nodes_number: 420.00 | avg mol_nodes_number: 556.50
+06-15 16:05 root         INFO     information: reation_node number:  240  |  mol_node number:  370  | iter:  10
+06-15 16:05 root         INFO     Final search status | expand model call | value model call | iter: True | 10 | 241 | 10
+06-15 16:05 root         INFO     Succ: 6/7/190 | avg time: 13.52 s | avg iter: 28.71 | avg expand_model_call: 28.71 | avg value_model_call: 418.29 | avg reaction_nodes_number: 394.29 | avg mol_nodes_number: 529.86
+06-15 16:06 root         INFO     information: reation_node number:  1241  |  mol_node number:  1526  | iter:  74
+06-15 16:06 root         INFO     Final search status | expand model call | value model call | iter: True | 74 | 1356 | 74
+06-15 16:06 root         INFO     Succ: 7/8/190 | avg time: 16.31 s | avg iter: 34.38 | avg expand_model_call: 34.38 | avg value_model_call: 535.50 | avg reaction_nodes_number: 500.12 | avg mol_nodes_number: 654.38
+06-15 16:06 root         INFO     information: reation_node number:  125  |  mol_node number:  164  | iter:  18
+06-15 16:06 root         INFO     Final search status | expand model call | value model call | iter: True | 18 | 159 | 18
+06-15 16:06 root         INFO     Succ: 8/9/190 | avg time: 14.98 s | avg iter: 32.56 | avg expand_model_call: 32.56 | avg value_model_call: 493.67 | avg reaction_nodes_number: 458.44 | avg mol_nodes_number: 599.89
+06-15 16:06 root         INFO     information: reation_node number:  608  |  mol_node number:  1052  | iter:  44
+06-15 16:06 root         INFO     Final search status | expand model call | value model call | iter: True | 44 | 613 | 44
+06-15 16:06 root         INFO     Succ: 9/10/190 | avg time: 15.48 s | avg iter: 33.70 | avg expand_model_call: 33.70 | avg value_model_call: 505.60 | avg reaction_nodes_number: 473.40 | avg mol_nodes_number: 645.10
+06-15 16:07 root         INFO     information: reation_node number:  1964  |  mol_node number:  2333  | iter:  100
+06-15 16:07 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 2046 | 100
+06-15 16:07 root         INFO     Succ: 9/11/190 | avg time: 18.25 s | avg iter: 39.73 | avg expand_model_call: 39.73 | avg value_model_call: 645.64 | avg reaction_nodes_number: 608.91 | avg mol_nodes_number: 798.55
+06-15 16:07 root         INFO     information: reation_node number:  19  |  mol_node number:  39  | iter:  3
+06-15 16:07 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 19 | 3
+06-15 16:07 root         INFO     Succ: 10/12/190 | avg time: 16.79 s | avg iter: 36.67 | avg expand_model_call: 36.67 | avg value_model_call: 593.42 | avg reaction_nodes_number: 559.75 | avg mol_nodes_number: 735.25
+06-15 16:07 root         INFO     information: reation_node number:  111  |  mol_node number:  180  | iter:  6
+06-15 16:07 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 111 | 6
+06-15 16:07 root         INFO     Succ: 11/13/190 | avg time: 15.88 s | avg iter: 34.31 | avg expand_model_call: 34.31 | avg value_model_call: 556.31 | avg reaction_nodes_number: 525.23 | avg mol_nodes_number: 692.54
+06-15 16:08 root         INFO     information: reation_node number:  1087  |  mol_node number:  1554  | iter:  100
+06-15 16:08 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1270 | 100
+06-15 16:08 root         INFO     Succ: 11/14/190 | avg time: 18.23 s | avg iter: 39.00 | avg expand_model_call: 39.00 | avg value_model_call: 607.29 | avg reaction_nodes_number: 565.36 | avg mol_nodes_number: 754.07
+06-15 16:08 root         INFO     information: reation_node number:  81  |  mol_node number:  104  | iter:  6
+06-15 16:08 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 84 | 6
+06-15 16:08 root         INFO     Succ: 12/15/190 | avg time: 17.12 s | avg iter: 36.80 | avg expand_model_call: 36.80 | avg value_model_call: 572.40 | avg reaction_nodes_number: 533.07 | avg mol_nodes_number: 710.73
+06-15 16:08 root         INFO     information: reation_node number:  73  |  mol_node number:  114  | iter:  4
+06-15 16:08 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 73 | 4
+06-15 16:08 root         INFO     Succ: 13/16/190 | avg time: 16.16 s | avg iter: 34.75 | avg expand_model_call: 34.75 | avg value_model_call: 541.19 | avg reaction_nodes_number: 504.31 | avg mol_nodes_number: 673.44
+06-15 16:08 root         INFO     information: reation_node number:  68  |  mol_node number:  98  | iter:  6
+06-15 16:08 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 68 | 6
+06-15 16:08 root         INFO     Succ: 14/17/190 | avg time: 15.32 s | avg iter: 33.06 | avg expand_model_call: 33.06 | avg value_model_call: 513.35 | avg reaction_nodes_number: 478.65 | avg mol_nodes_number: 639.59
+06-15 16:08 root         INFO     information: reation_node number:  34  |  mol_node number:  59  | iter:  5
+06-15 16:08 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 34 | 5
+06-15 16:08 root         INFO     Succ: 15/18/190 | avg time: 14.53 s | avg iter: 31.50 | avg expand_model_call: 31.50 | avg value_model_call: 486.72 | avg reaction_nodes_number: 453.94 | avg mol_nodes_number: 607.33
+06-15 16:08 root         INFO     information: reation_node number:  215  |  mol_node number:  310  | iter:  18
+06-15 16:08 root         INFO     Final search status | expand model call | value model call | iter: True | 18 | 225 | 18
+06-15 16:08 root         INFO     Succ: 16/19/190 | avg time: 14.17 s | avg iter: 30.79 | avg expand_model_call: 30.79 | avg value_model_call: 472.95 | avg reaction_nodes_number: 441.37 | avg mol_nodes_number: 591.68
+06-15 16:09 root         INFO     information: reation_node number:  1609  |  mol_node number:  2079  | iter:  100
+06-15 16:09 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1696 | 100
+06-15 16:09 root         INFO     Succ: 16/20/190 | avg time: 15.82 s | avg iter: 34.25 | avg expand_model_call: 34.25 | avg value_model_call: 534.10 | avg reaction_nodes_number: 499.75 | avg mol_nodes_number: 666.05
+06-15 16:09 root         INFO     information: reation_node number:  192  |  mol_node number:  259  | iter:  11
+06-15 16:09 root         INFO     Final search status | expand model call | value model call | iter: True | 11 | 201 | 11
+06-15 16:09 root         INFO     Succ: 17/21/190 | avg time: 15.37 s | avg iter: 33.14 | avg expand_model_call: 33.14 | avg value_model_call: 518.24 | avg reaction_nodes_number: 485.10 | avg mol_nodes_number: 646.67
+06-15 16:09 root         INFO     information: reation_node number:  418  |  mol_node number:  681  | iter:  22
+06-15 16:09 root         INFO     Final search status | expand model call | value model call | iter: True | 22 | 424 | 22
+06-15 16:09 root         INFO     Succ: 18/22/190 | avg time: 15.30 s | avg iter: 32.64 | avg expand_model_call: 32.64 | avg value_model_call: 513.95 | avg reaction_nodes_number: 482.05 | avg mol_nodes_number: 648.23
+06-15 16:09 root         INFO     information: reation_node number:  96  |  mol_node number:  151  | iter:  8
+06-15 16:09 root         INFO     Final search status | expand model call | value model call | iter: True | 8 | 97 | 8
+06-15 16:09 root         INFO     Succ: 19/23/190 | avg time: 14.73 s | avg iter: 31.57 | avg expand_model_call: 31.57 | avg value_model_call: 495.83 | avg reaction_nodes_number: 465.26 | avg mol_nodes_number: 626.61
+06-15 16:10 root         INFO     information: reation_node number:  449  |  mol_node number:  698  | iter:  20
+06-15 16:10 root         INFO     Final search status | expand model call | value model call | iter: True | 20 | 454 | 20
+06-15 16:10 root         INFO     Succ: 20/24/190 | avg time: 14.75 s | avg iter: 31.08 | avg expand_model_call: 31.08 | avg value_model_call: 494.08 | avg reaction_nodes_number: 464.58 | avg mol_nodes_number: 629.58
+06-15 16:11 root         INFO     information: reation_node number:  1707  |  mol_node number:  2392  | iter:  100
+06-15 16:11 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1755 | 100
+06-15 16:11 root         INFO     Succ: 20/25/190 | avg time: 16.54 s | avg iter: 33.84 | avg expand_model_call: 33.84 | avg value_model_call: 544.52 | avg reaction_nodes_number: 514.28 | avg mol_nodes_number: 700.08
+06-15 16:11 root         INFO     information: reation_node number:  41  |  mol_node number:  73  | iter:  3
+06-15 16:11 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 41 | 3
+06-15 16:11 root         INFO     Succ: 21/26/190 | avg time: 15.97 s | avg iter: 32.65 | avg expand_model_call: 32.65 | avg value_model_call: 525.15 | avg reaction_nodes_number: 496.08 | avg mol_nodes_number: 675.96
+06-15 16:11 root         INFO     information: reation_node number:  127  |  mol_node number:  190  | iter:  10
+06-15 16:11 root         INFO     Final search status | expand model call | value model call | iter: True | 10 | 129 | 10
+06-15 16:11 root         INFO     Succ: 22/27/190 | avg time: 15.61 s | avg iter: 31.81 | avg expand_model_call: 31.81 | avg value_model_call: 510.48 | avg reaction_nodes_number: 482.41 | avg mol_nodes_number: 657.96
+06-15 16:12 root         INFO     information: reation_node number:  1117  |  mol_node number:  1443  | iter:  100
+06-15 16:12 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1174 | 100
+06-15 16:12 root         INFO     Succ: 22/28/190 | avg time: 16.62 s | avg iter: 34.25 | avg expand_model_call: 34.25 | avg value_model_call: 534.18 | avg reaction_nodes_number: 505.07 | avg mol_nodes_number: 686.00
+06-15 16:12 root         INFO     information: reation_node number:  266  |  mol_node number:  441  | iter:  21
+06-15 16:12 root         INFO     Final search status | expand model call | value model call | iter: True | 21 | 268 | 21
+06-15 16:12 root         INFO     Succ: 23/29/190 | avg time: 16.43 s | avg iter: 33.79 | avg expand_model_call: 33.79 | avg value_model_call: 525.00 | avg reaction_nodes_number: 496.83 | avg mol_nodes_number: 677.55
+06-15 16:12 root         INFO     information: reation_node number:  61  |  mol_node number:  92  | iter:  3
+06-15 16:12 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 61 | 3
+06-15 16:12 root         INFO     Succ: 24/30/190 | avg time: 15.91 s | avg iter: 32.77 | avg expand_model_call: 32.77 | avg value_model_call: 509.53 | avg reaction_nodes_number: 482.30 | avg mol_nodes_number: 658.03
+06-15 16:12 root         INFO     information: reation_node number:  96  |  mol_node number:  129  | iter:  4
+06-15 16:12 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 98 | 4
+06-15 16:12 root         INFO     Succ: 25/31/190 | avg time: 15.53 s | avg iter: 31.84 | avg expand_model_call: 31.84 | avg value_model_call: 496.26 | avg reaction_nodes_number: 469.84 | avg mol_nodes_number: 640.97
+06-15 16:13 root         INFO     information: reation_node number:  974  |  mol_node number:  1274  | iter:  100
+06-15 16:13 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1048 | 100
+06-15 16:13 root         INFO     Succ: 25/32/190 | avg time: 16.37 s | avg iter: 33.97 | avg expand_model_call: 33.97 | avg value_model_call: 513.50 | avg reaction_nodes_number: 485.59 | avg mol_nodes_number: 660.75
+06-15 16:13 root         INFO     information: reation_node number:  67  |  mol_node number:  108  | iter:  4
+06-15 16:13 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 69 | 4
+06-15 16:13 root         INFO     Succ: 26/33/190 | avg time: 15.92 s | avg iter: 33.06 | avg expand_model_call: 33.06 | avg value_model_call: 500.03 | avg reaction_nodes_number: 472.91 | avg mol_nodes_number: 644.00
+06-15 16:13 root         INFO     information: reation_node number:  124  |  mol_node number:  180  | iter:  9
+06-15 16:13 root         INFO     Final search status | expand model call | value model call | iter: True | 9 | 131 | 9
+06-15 16:13 root         INFO     Succ: 27/34/190 | avg time: 15.64 s | avg iter: 32.35 | avg expand_model_call: 32.35 | avg value_model_call: 489.18 | avg reaction_nodes_number: 462.65 | avg mol_nodes_number: 630.35
+06-15 16:13 root         INFO     information: reation_node number:  266  |  mol_node number:  358  | iter:  20
+06-15 16:13 root         INFO     Final search status | expand model call | value model call | iter: True | 20 | 271 | 20
+06-15 16:13 root         INFO     Succ: 28/35/190 | avg time: 15.43 s | avg iter: 32.00 | avg expand_model_call: 32.00 | avg value_model_call: 482.94 | avg reaction_nodes_number: 457.03 | avg mol_nodes_number: 622.57
+06-15 16:13 root         INFO     information: reation_node number:  191  |  mol_node number:  209  | iter:  9
+06-15 16:13 root         INFO     Final search status | expand model call | value model call | iter: True | 9 | 199 | 9
+06-15 16:13 root         INFO     Succ: 29/36/190 | avg time: 15.12 s | avg iter: 31.36 | avg expand_model_call: 31.36 | avg value_model_call: 475.06 | avg reaction_nodes_number: 449.64 | avg mol_nodes_number: 611.08
+06-15 16:13 root         INFO     information: reation_node number:  49  |  mol_node number:  74  | iter:  4
+06-15 16:13 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 53 | 4
+06-15 16:13 root         INFO     Succ: 30/37/190 | avg time: 14.80 s | avg iter: 30.62 | avg expand_model_call: 30.62 | avg value_model_call: 463.65 | avg reaction_nodes_number: 438.81 | avg mol_nodes_number: 596.57
+06-15 16:13 root         INFO     information: reation_node number:  123  |  mol_node number:  175  | iter:  10
+06-15 16:13 root         INFO     Final search status | expand model call | value model call | iter: True | 10 | 126 | 10
+06-15 16:13 root         INFO     Succ: 31/38/190 | avg time: 14.50 s | avg iter: 30.08 | avg expand_model_call: 30.08 | avg value_model_call: 454.76 | avg reaction_nodes_number: 430.50 | avg mol_nodes_number: 585.47
+06-15 16:14 root         INFO     information: reation_node number:  1075  |  mol_node number:  1716  | iter:  100
+06-15 16:14 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1218 | 100
+06-15 16:14 root         INFO     Succ: 31/39/190 | avg time: 15.09 s | avg iter: 31.87 | avg expand_model_call: 31.87 | avg value_model_call: 474.33 | avg reaction_nodes_number: 447.03 | avg mol_nodes_number: 614.46
+06-15 16:14 root         INFO     information: reation_node number:  72  |  mol_node number:  129  | iter:  4
+06-15 16:14 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 72 | 4
+06-15 16:14 root         INFO     Succ: 32/40/190 | avg time: 14.74 s | avg iter: 31.18 | avg expand_model_call: 31.18 | avg value_model_call: 464.27 | avg reaction_nodes_number: 437.65 | avg mol_nodes_number: 602.33
+06-15 16:14 root         INFO     information: reation_node number:  649  |  mol_node number:  1028  | iter:  30
+06-15 16:14 root         INFO     Final search status | expand model call | value model call | iter: True | 30 | 650 | 30
+06-15 16:14 root         INFO     Succ: 33/41/190 | avg time: 14.91 s | avg iter: 31.15 | avg expand_model_call: 31.15 | avg value_model_call: 468.80 | avg reaction_nodes_number: 442.80 | avg mol_nodes_number: 612.71
+06-15 16:14 root         INFO     information: reation_node number:  193  |  mol_node number:  355  | iter:  14
+06-15 16:14 root         INFO     Final search status | expand model call | value model call | iter: True | 14 | 195 | 14
+06-15 16:14 root         INFO     Succ: 34/42/190 | avg time: 14.74 s | avg iter: 30.74 | avg expand_model_call: 30.74 | avg value_model_call: 462.29 | avg reaction_nodes_number: 436.86 | avg mol_nodes_number: 606.57
+06-15 16:14 root         INFO     information: reation_node number:  26  |  mol_node number:  40  | iter:  2
+06-15 16:14 root         INFO     Final search status | expand model call | value model call | iter: True | 2 | 26 | 2
+06-15 16:14 root         INFO     Succ: 35/43/190 | avg time: 14.41 s | avg iter: 30.07 | avg expand_model_call: 30.07 | avg value_model_call: 452.14 | avg reaction_nodes_number: 427.30 | avg mol_nodes_number: 593.40
+06-15 16:14 root         INFO     information: reation_node number:  149  |  mol_node number:  246  | iter:  7
+06-15 16:14 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 151 | 7
+06-15 16:14 root         INFO     Succ: 36/44/190 | avg time: 14.19 s | avg iter: 29.55 | avg expand_model_call: 29.55 | avg value_model_call: 445.30 | avg reaction_nodes_number: 420.98 | avg mol_nodes_number: 585.50
+06-15 16:14 root         INFO     information: reation_node number:  80  |  mol_node number:  120  | iter:  4
+06-15 16:14 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 82 | 4
+06-15 16:14 root         INFO     Succ: 37/45/190 | avg time: 13.93 s | avg iter: 28.98 | avg expand_model_call: 28.98 | avg value_model_call: 437.22 | avg reaction_nodes_number: 413.40 | avg mol_nodes_number: 575.16
+06-15 16:15 root         INFO     information: reation_node number:  886  |  mol_node number:  1205  | iter:  57
+06-15 16:15 root         INFO     Final search status | expand model call | value model call | iter: True | 57 | 932 | 57
+06-15 16:15 root         INFO     Succ: 38/46/190 | avg time: 14.16 s | avg iter: 29.59 | avg expand_model_call: 29.59 | avg value_model_call: 447.98 | avg reaction_nodes_number: 423.67 | avg mol_nodes_number: 588.85
+06-15 16:16 root         INFO     information: reation_node number:  2248  |  mol_node number:  2711  | iter:  100
+06-15 16:16 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 2349 | 100
+06-15 16:16 root         INFO     Succ: 38/47/190 | avg time: 15.00 s | avg iter: 31.09 | avg expand_model_call: 31.09 | avg value_model_call: 488.43 | avg reaction_nodes_number: 462.49 | avg mol_nodes_number: 634.00
+06-15 16:16 root         INFO     information: reation_node number:  395  |  mol_node number:  546  | iter:  41
+06-15 16:16 root         INFO     Final search status | expand model call | value model call | iter: True | 41 | 451 | 41
+06-15 16:16 root         INFO     Succ: 39/48/190 | avg time: 15.05 s | avg iter: 31.29 | avg expand_model_call: 31.29 | avg value_model_call: 487.65 | avg reaction_nodes_number: 461.08 | avg mol_nodes_number: 632.17
+06-15 16:16 root         INFO     information: reation_node number:  67  |  mol_node number:  111  | iter:  9
+06-15 16:16 root         INFO     Final search status | expand model call | value model call | iter: True | 9 | 68 | 9
+06-15 16:16 root         INFO     Succ: 40/49/190 | avg time: 14.84 s | avg iter: 30.84 | avg expand_model_call: 30.84 | avg value_model_call: 479.08 | avg reaction_nodes_number: 453.04 | avg mol_nodes_number: 621.53
+06-15 16:16 root         INFO     information: reation_node number:  64  |  mol_node number:  107  | iter:  7
+06-15 16:16 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 68 | 7
+06-15 16:16 root         INFO     Succ: 41/50/190 | avg time: 14.60 s | avg iter: 30.36 | avg expand_model_call: 30.36 | avg value_model_call: 470.86 | avg reaction_nodes_number: 445.26 | avg mol_nodes_number: 611.24
+06-15 16:16 root         INFO     information: reation_node number:  102  |  mol_node number:  157  | iter:  6
+06-15 16:16 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 102 | 6
+06-15 16:16 root         INFO     Succ: 42/51/190 | avg time: 14.35 s | avg iter: 29.88 | avg expand_model_call: 29.88 | avg value_model_call: 463.63 | avg reaction_nodes_number: 438.53 | avg mol_nodes_number: 602.33
+06-15 16:16 root         INFO     information: reation_node number:  586  |  mol_node number:  869  | iter:  48
+06-15 16:16 root         INFO     Final search status | expand model call | value model call | iter: True | 48 | 605 | 48
+06-15 16:16 root         INFO     Succ: 43/52/190 | avg time: 14.54 s | avg iter: 30.23 | avg expand_model_call: 30.23 | avg value_model_call: 466.35 | avg reaction_nodes_number: 441.37 | avg mol_nodes_number: 607.46
+06-15 16:16 root         INFO     information: reation_node number:  84  |  mol_node number:  134  | iter:  5
+06-15 16:16 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 86 | 5
+06-15 16:16 root         INFO     Succ: 44/53/190 | avg time: 14.30 s | avg iter: 29.75 | avg expand_model_call: 29.75 | avg value_model_call: 459.17 | avg reaction_nodes_number: 434.62 | avg mol_nodes_number: 598.53
+06-15 16:17 root         INFO     information: reation_node number:  69  |  mol_node number:  124  | iter:  3
+06-15 16:17 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 69 | 3
+06-15 16:17 root         INFO     Succ: 45/54/190 | avg time: 14.12 s | avg iter: 29.26 | avg expand_model_call: 29.26 | avg value_model_call: 451.94 | avg reaction_nodes_number: 427.85 | avg mol_nodes_number: 589.74
+06-15 16:17 root         INFO     information: reation_node number:  72  |  mol_node number:  112  | iter:  4
+06-15 16:17 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 72 | 4
+06-15 16:17 root         INFO     Succ: 46/55/190 | avg time: 13.88 s | avg iter: 28.80 | avg expand_model_call: 28.80 | avg value_model_call: 445.04 | avg reaction_nodes_number: 421.38 | avg mol_nodes_number: 581.05
+06-15 16:17 root         INFO     information: reation_node number:  921  |  mol_node number:  999  | iter:  29
+06-15 16:17 root         INFO     Final search status | expand model call | value model call | iter: True | 29 | 945 | 29
+06-15 16:17 root         INFO     Succ: 47/56/190 | avg time: 13.94 s | avg iter: 28.80 | avg expand_model_call: 28.80 | avg value_model_call: 453.96 | avg reaction_nodes_number: 430.30 | avg mol_nodes_number: 588.52
+06-15 16:17 root         INFO     information: reation_node number:  676  |  mol_node number:  834  | iter:  19
+06-15 16:17 root         INFO     Final search status | expand model call | value model call | iter: True | 19 | 682 | 19
+06-15 16:17 root         INFO     Succ: 48/57/190 | avg time: 13.91 s | avg iter: 28.63 | avg expand_model_call: 28.63 | avg value_model_call: 457.96 | avg reaction_nodes_number: 434.61 | avg mol_nodes_number: 592.82
+06-15 16:17 root         INFO     information: reation_node number:  281  |  mol_node number:  357  | iter:  18
+06-15 16:17 root         INFO     Final search status | expand model call | value model call | iter: True | 18 | 292 | 18
+06-15 16:17 root         INFO     Succ: 49/58/190 | avg time: 13.80 s | avg iter: 28.45 | avg expand_model_call: 28.45 | avg value_model_call: 455.10 | avg reaction_nodes_number: 431.97 | avg mol_nodes_number: 588.76
+06-15 16:17 root         INFO     information: reation_node number:  151  |  mol_node number:  271  | iter:  11
+06-15 16:17 root         INFO     Final search status | expand model call | value model call | iter: True | 11 | 152 | 11
+06-15 16:17 root         INFO     Succ: 50/59/190 | avg time: 13.68 s | avg iter: 28.15 | avg expand_model_call: 28.15 | avg value_model_call: 449.97 | avg reaction_nodes_number: 427.20 | avg mol_nodes_number: 583.37
+06-15 16:18 root         INFO     information: reation_node number:  696  |  mol_node number:  1103  | iter:  53
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 53 | 702 | 53
+06-15 16:18 root         INFO     Succ: 51/60/190 | avg time: 13.92 s | avg iter: 28.57 | avg expand_model_call: 28.57 | avg value_model_call: 454.17 | avg reaction_nodes_number: 431.68 | avg mol_nodes_number: 592.03
+06-15 16:18 root         INFO     information: reation_node number:  182  |  mol_node number:  250  | iter:  12
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 12 | 195 | 12
+06-15 16:18 root         INFO     Succ: 52/61/190 | avg time: 13.76 s | avg iter: 28.30 | avg expand_model_call: 28.30 | avg value_model_call: 449.92 | avg reaction_nodes_number: 427.59 | avg mol_nodes_number: 586.43
+06-15 16:18 root         INFO     information: reation_node number:  212  |  mol_node number:  314  | iter:  9
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 9 | 213 | 9
+06-15 16:18 root         INFO     Succ: 53/62/190 | avg time: 13.65 s | avg iter: 27.98 | avg expand_model_call: 27.98 | avg value_model_call: 446.10 | avg reaction_nodes_number: 424.11 | avg mol_nodes_number: 582.03
+06-15 16:18 root         INFO     information: reation_node number:  149  |  mol_node number:  212  | iter:  13
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 13 | 159 | 13
+06-15 16:18 root         INFO     Succ: 54/63/190 | avg time: 13.53 s | avg iter: 27.75 | avg expand_model_call: 27.75 | avg value_model_call: 441.54 | avg reaction_nodes_number: 419.75 | avg mol_nodes_number: 576.16
+06-15 16:18 root         INFO     information: reation_node number:  464  |  mol_node number:  718  | iter:  19
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 19 | 465 | 19
+06-15 16:18 root         INFO     Succ: 55/64/190 | avg time: 13.53 s | avg iter: 27.61 | avg expand_model_call: 27.61 | avg value_model_call: 441.91 | avg reaction_nodes_number: 420.44 | avg mol_nodes_number: 578.38
+06-15 16:18 root         INFO     information: reation_node number:  55  |  mol_node number:  95  | iter:  3
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 55 | 3
+06-15 16:18 root         INFO     Succ: 56/65/190 | avg time: 13.34 s | avg iter: 27.23 | avg expand_model_call: 27.23 | avg value_model_call: 435.95 | avg reaction_nodes_number: 414.82 | avg mol_nodes_number: 570.94
+06-15 16:18 root         INFO     information: reation_node number:  474  |  mol_node number:  570  | iter:  19
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 19 | 500 | 19
+06-15 16:18 root         INFO     Succ: 57/66/190 | avg time: 13.29 s | avg iter: 27.11 | avg expand_model_call: 27.11 | avg value_model_call: 436.92 | avg reaction_nodes_number: 415.71 | avg mol_nodes_number: 570.92
+06-15 16:18 root         INFO     information: reation_node number:  69  |  mol_node number:  81  | iter:  3
+06-15 16:18 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 72 | 3
+06-15 16:18 root         INFO     Succ: 58/67/190 | avg time: 13.11 s | avg iter: 26.75 | avg expand_model_call: 26.75 | avg value_model_call: 431.48 | avg reaction_nodes_number: 410.54 | avg mol_nodes_number: 563.61
+06-15 16:19 root         INFO     information: reation_node number:  243  |  mol_node number:  393  | iter:  19
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 19 | 247 | 19
+06-15 16:19 root         INFO     Succ: 59/68/190 | avg time: 13.05 s | avg iter: 26.63 | avg expand_model_call: 26.63 | avg value_model_call: 428.76 | avg reaction_nodes_number: 408.07 | avg mol_nodes_number: 561.10
+06-15 16:19 root         INFO     information: reation_node number:  88  |  mol_node number:  152  | iter:  6
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 93 | 6
+06-15 16:19 root         INFO     Succ: 60/69/190 | avg time: 12.88 s | avg iter: 26.33 | avg expand_model_call: 26.33 | avg value_model_call: 423.90 | avg reaction_nodes_number: 403.43 | avg mol_nodes_number: 555.17
+06-15 16:19 root         INFO     information: reation_node number:  260  |  mol_node number:  408  | iter:  11
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 11 | 261 | 11
+06-15 16:19 root         INFO     Succ: 61/70/190 | avg time: 12.84 s | avg iter: 26.11 | avg expand_model_call: 26.11 | avg value_model_call: 421.57 | avg reaction_nodes_number: 401.39 | avg mol_nodes_number: 553.07
+06-15 16:19 root         INFO     information: reation_node number:  117  |  mol_node number:  161  | iter:  11
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 11 | 138 | 11
+06-15 16:19 root         INFO     Succ: 62/71/190 | avg time: 12.71 s | avg iter: 25.90 | avg expand_model_call: 25.90 | avg value_model_call: 417.58 | avg reaction_nodes_number: 397.38 | avg mol_nodes_number: 547.55
+06-15 16:19 root         INFO     information: reation_node number:  78  |  mol_node number:  125  | iter:  4
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 78 | 4
+06-15 16:19 root         INFO     Succ: 63/72/190 | avg time: 12.55 s | avg iter: 25.60 | avg expand_model_call: 25.60 | avg value_model_call: 412.86 | avg reaction_nodes_number: 392.94 | avg mol_nodes_number: 541.68
+06-15 16:19 root         INFO     information: reation_node number:  131  |  mol_node number:  179  | iter:  7
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 135 | 7
+06-15 16:19 root         INFO     Succ: 64/73/190 | avg time: 12.45 s | avg iter: 25.34 | avg expand_model_call: 25.34 | avg value_model_call: 409.05 | avg reaction_nodes_number: 389.36 | avg mol_nodes_number: 536.71
+06-15 16:19 root         INFO     information: reation_node number:  169  |  mol_node number:  249  | iter:  8
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 8 | 171 | 8
+06-15 16:19 root         INFO     Succ: 65/74/190 | avg time: 12.33 s | avg iter: 25.11 | avg expand_model_call: 25.11 | avg value_model_call: 405.84 | avg reaction_nodes_number: 386.38 | avg mol_nodes_number: 532.82
+06-15 16:19 root         INFO     information: reation_node number:  77  |  mol_node number:  101  | iter:  7
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 81 | 7
+06-15 16:19 root         INFO     Succ: 66/75/190 | avg time: 12.20 s | avg iter: 24.87 | avg expand_model_call: 24.87 | avg value_model_call: 401.51 | avg reaction_nodes_number: 382.25 | avg mol_nodes_number: 527.07
+06-15 16:19 root         INFO     information: reation_node number:  131  |  mol_node number:  205  | iter:  10
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 10 | 140 | 10
+06-15 16:19 root         INFO     Succ: 67/76/190 | avg time: 12.11 s | avg iter: 24.67 | avg expand_model_call: 24.67 | avg value_model_call: 398.07 | avg reaction_nodes_number: 378.95 | avg mol_nodes_number: 522.83
+06-15 16:19 root         INFO     information: reation_node number:  236  |  mol_node number:  349  | iter:  15
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 15 | 247 | 15
+06-15 16:19 root         INFO     Succ: 68/77/190 | avg time: 12.02 s | avg iter: 24.55 | avg expand_model_call: 24.55 | avg value_model_call: 396.10 | avg reaction_nodes_number: 377.09 | avg mol_nodes_number: 520.57
+06-15 16:19 root         INFO     information: reation_node number:  8  |  mol_node number:  22  | iter:  2
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 2 | 8 | 2
+06-15 16:19 root         INFO     Succ: 69/78/190 | avg time: 11.87 s | avg iter: 24.26 | avg expand_model_call: 24.26 | avg value_model_call: 391.13 | avg reaction_nodes_number: 372.36 | avg mol_nodes_number: 514.18
+06-15 16:19 root         INFO     information: reation_node number:  43  |  mol_node number:  106  | iter:  3
+06-15 16:19 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 44 | 3
+06-15 16:19 root         INFO     Succ: 70/79/190 | avg time: 11.77 s | avg iter: 23.99 | avg expand_model_call: 23.99 | avg value_model_call: 386.73 | avg reaction_nodes_number: 368.19 | avg mol_nodes_number: 509.01
+06-15 16:20 root         INFO     information: reation_node number:  1002  |  mol_node number:  1344  | iter:  61
+06-15 16:20 root         INFO     Final search status | expand model call | value model call | iter: True | 61 | 1056 | 61
+06-15 16:20 root         INFO     Succ: 71/80/190 | avg time: 11.96 s | avg iter: 24.45 | avg expand_model_call: 24.45 | avg value_model_call: 395.10 | avg reaction_nodes_number: 376.11 | avg mol_nodes_number: 519.45
+06-15 16:20 root         INFO     information: reation_node number:  44  |  mol_node number:  73  | iter:  3
+06-15 16:20 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 46 | 3
+06-15 16:20 root         INFO     Succ: 72/81/190 | avg time: 11.83 s | avg iter: 24.19 | avg expand_model_call: 24.19 | avg value_model_call: 390.79 | avg reaction_nodes_number: 372.01 | avg mol_nodes_number: 513.94
+06-15 16:20 root         INFO     information: reation_node number:  1906  |  mol_node number:  2155  | iter:  46
+06-15 16:20 root         INFO     Final search status | expand model call | value model call | iter: True | 46 | 1942 | 46
+06-15 16:20 root         INFO     Succ: 73/82/190 | avg time: 12.13 s | avg iter: 24.45 | avg expand_model_call: 24.45 | avg value_model_call: 409.71 | avg reaction_nodes_number: 390.72 | avg mol_nodes_number: 533.95
+06-15 16:20 root         INFO     information: reation_node number:  191  |  mol_node number:  225  | iter:  9
+06-15 16:20 root         INFO     Final search status | expand model call | value model call | iter: True | 9 | 192 | 9
+06-15 16:20 root         INFO     Succ: 74/83/190 | avg time: 12.03 s | avg iter: 24.27 | avg expand_model_call: 24.27 | avg value_model_call: 407.08 | avg reaction_nodes_number: 388.31 | avg mol_nodes_number: 530.23
+06-15 16:21 root         INFO     information: reation_node number:  275  |  mol_node number:  349  | iter:  17
+06-15 16:21 root         INFO     Final search status | expand model call | value model call | iter: True | 17 | 286 | 17
+06-15 16:21 root         INFO     Succ: 75/84/190 | avg time: 11.95 s | avg iter: 24.18 | avg expand_model_call: 24.18 | avg value_model_call: 405.64 | avg reaction_nodes_number: 386.96 | avg mol_nodes_number: 528.07
+06-15 16:21 root         INFO     information: reation_node number:  142  |  mol_node number:  239  | iter:  13
+06-15 16:21 root         INFO     Final search status | expand model call | value model call | iter: True | 13 | 148 | 13
+06-15 16:21 root         INFO     Succ: 76/85/190 | avg time: 11.92 s | avg iter: 24.05 | avg expand_model_call: 24.05 | avg value_model_call: 402.61 | avg reaction_nodes_number: 384.08 | avg mol_nodes_number: 524.67
+06-15 16:21 root         INFO     information: reation_node number:  189  |  mol_node number:  243  | iter:  11
+06-15 16:21 root         INFO     Final search status | expand model call | value model call | iter: True | 11 | 191 | 11
+06-15 16:21 root         INFO     Succ: 77/86/190 | avg time: 11.83 s | avg iter: 23.90 | avg expand_model_call: 23.90 | avg value_model_call: 400.15 | avg reaction_nodes_number: 381.81 | avg mol_nodes_number: 521.40
+06-15 16:21 root         INFO     information: reation_node number:  62  |  mol_node number:  112  | iter:  4
+06-15 16:21 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 63 | 4
+06-15 16:21 root         INFO     Succ: 78/87/190 | avg time: 11.71 s | avg iter: 23.67 | avg expand_model_call: 23.67 | avg value_model_call: 396.28 | avg reaction_nodes_number: 378.14 | avg mol_nodes_number: 516.69
+06-15 16:21 root         INFO     information: reation_node number:  260  |  mol_node number:  419  | iter:  21
+06-15 16:21 root         INFO     Final search status | expand model call | value model call | iter: True | 21 | 262 | 21
+06-15 16:21 root         INFO     Succ: 79/88/190 | avg time: 11.72 s | avg iter: 23.64 | avg expand_model_call: 23.64 | avg value_model_call: 394.75 | avg reaction_nodes_number: 376.80 | avg mol_nodes_number: 515.58
+06-15 16:21 root         INFO     information: reation_node number:  39  |  mol_node number:  67  | iter:  6
+06-15 16:21 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 39 | 6
+06-15 16:21 root         INFO     Succ: 80/89/190 | avg time: 11.61 s | avg iter: 23.44 | avg expand_model_call: 23.44 | avg value_model_call: 390.75 | avg reaction_nodes_number: 373.00 | avg mol_nodes_number: 510.54
+06-15 16:21 root         INFO     information: reation_node number:  237  |  mol_node number:  290  | iter:  22
+06-15 16:21 root         INFO     Final search status | expand model call | value model call | iter: True | 22 | 245 | 22
+06-15 16:21 root         INFO     Succ: 81/90/190 | avg time: 11.61 s | avg iter: 23.42 | avg expand_model_call: 23.42 | avg value_model_call: 389.13 | avg reaction_nodes_number: 371.49 | avg mol_nodes_number: 508.09
+06-15 16:22 root         INFO     information: reation_node number:  1128  |  mol_node number:  1436  | iter:  96
+06-15 16:22 root         INFO     Final search status | expand model call | value model call | iter: True | 96 | 1222 | 96
+06-15 16:22 root         INFO     Succ: 82/91/190 | avg time: 11.84 s | avg iter: 24.22 | avg expand_model_call: 24.22 | avg value_model_call: 398.29 | avg reaction_nodes_number: 379.80 | avg mol_nodes_number: 518.29
+06-15 16:22 root         INFO     information: reation_node number:  117  |  mol_node number:  199  | iter:  14
+06-15 16:22 root         INFO     Final search status | expand model call | value model call | iter: True | 14 | 120 | 14
+06-15 16:22 root         INFO     Succ: 83/92/190 | avg time: 11.79 s | avg iter: 24.11 | avg expand_model_call: 24.11 | avg value_model_call: 395.26 | avg reaction_nodes_number: 376.95 | avg mol_nodes_number: 514.82
+06-15 16:22 root         INFO     information: reation_node number:  48  |  mol_node number:  93  | iter:  4
+06-15 16:22 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 48 | 4
+06-15 16:22 root         INFO     Succ: 84/93/190 | avg time: 11.68 s | avg iter: 23.89 | avg expand_model_call: 23.89 | avg value_model_call: 391.53 | avg reaction_nodes_number: 373.41 | avg mol_nodes_number: 510.28
+06-15 16:22 root         INFO     information: reation_node number:  71  |  mol_node number:  108  | iter:  4
+06-15 16:22 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 71 | 4
+06-15 16:22 root         INFO     Succ: 85/94/190 | avg time: 11.57 s | avg iter: 23.68 | avg expand_model_call: 23.68 | avg value_model_call: 388.12 | avg reaction_nodes_number: 370.19 | avg mol_nodes_number: 506.00
+06-15 16:23 root         INFO     information: reation_node number:  1746  |  mol_node number:  2413  | iter:  100
+06-15 16:23 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1802 | 100
+06-15 16:23 root         INFO     Succ: 85/95/190 | avg time: 12.10 s | avg iter: 24.48 | avg expand_model_call: 24.48 | avg value_model_call: 403.00 | avg reaction_nodes_number: 384.67 | avg mol_nodes_number: 526.07
+06-15 16:23 root         INFO     information: reation_node number:  153  |  mol_node number:  217  | iter:  9
+06-15 16:23 root         INFO     Final search status | expand model call | value model call | iter: True | 9 | 158 | 9
+06-15 16:23 root         INFO     Succ: 86/96/190 | avg time: 12.04 s | avg iter: 24.32 | avg expand_model_call: 24.32 | avg value_model_call: 400.45 | avg reaction_nodes_number: 382.26 | avg mol_nodes_number: 522.85
+06-15 16:23 root         INFO     information: reation_node number:  640  |  mol_node number:  914  | iter:  40
+06-15 16:23 root         INFO     Final search status | expand model call | value model call | iter: True | 40 | 648 | 40
+06-15 16:23 root         INFO     Succ: 87/97/190 | avg time: 12.07 s | avg iter: 24.48 | avg expand_model_call: 24.48 | avg value_model_call: 403.00 | avg reaction_nodes_number: 384.92 | avg mol_nodes_number: 526.89
+06-15 16:23 root         INFO     information: reation_node number:  177  |  mol_node number:  205  | iter:  7
+06-15 16:23 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 179 | 7
+06-15 16:23 root         INFO     Succ: 88/98/190 | avg time: 11.98 s | avg iter: 24.31 | avg expand_model_call: 24.31 | avg value_model_call: 400.71 | avg reaction_nodes_number: 382.80 | avg mol_nodes_number: 523.60
+06-15 16:24 root         INFO     information: reation_node number:  366  |  mol_node number:  483  | iter:  30
+06-15 16:24 root         INFO     Final search status | expand model call | value model call | iter: True | 30 | 380 | 30
+06-15 16:24 root         INFO     Succ: 89/99/190 | avg time: 12.08 s | avg iter: 24.36 | avg expand_model_call: 24.36 | avg value_model_call: 400.51 | avg reaction_nodes_number: 382.63 | avg mol_nodes_number: 523.19
+06-15 16:24 root         INFO     information: reation_node number:  67  |  mol_node number:  88  | iter:  7
+06-15 16:24 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 71 | 7
+06-15 16:24 root         INFO     Succ: 90/100/190 | avg time: 11.98 s | avg iter: 24.19 | avg expand_model_call: 24.19 | avg value_model_call: 397.21 | avg reaction_nodes_number: 379.47 | avg mol_nodes_number: 518.84
+06-15 16:24 root         INFO     information: reation_node number:  490  |  mol_node number:  853  | iter:  31
+06-15 16:24 root         INFO     Final search status | expand model call | value model call | iter: True | 31 | 494 | 31
+06-15 16:24 root         INFO     Succ: 91/101/190 | avg time: 12.04 s | avg iter: 24.26 | avg expand_model_call: 24.26 | avg value_model_call: 398.17 | avg reaction_nodes_number: 380.56 | avg mol_nodes_number: 522.15
+06-15 16:24 root         INFO     information: reation_node number:  406  |  mol_node number:  617  | iter:  17
+06-15 16:24 root         INFO     Final search status | expand model call | value model call | iter: True | 17 | 407 | 17
+06-15 16:24 root         INFO     Succ: 92/102/190 | avg time: 12.02 s | avg iter: 24.19 | avg expand_model_call: 24.19 | avg value_model_call: 398.25 | avg reaction_nodes_number: 380.81 | avg mol_nodes_number: 523.08
+06-15 16:24 root         INFO     information: reation_node number:  104  |  mol_node number:  165  | iter:  8
+06-15 16:24 root         INFO     Final search status | expand model call | value model call | iter: True | 8 | 112 | 8
+06-15 16:24 root         INFO     Succ: 93/103/190 | avg time: 11.95 s | avg iter: 24.03 | avg expand_model_call: 24.03 | avg value_model_call: 395.48 | avg reaction_nodes_number: 378.13 | avg mol_nodes_number: 519.60
+06-15 16:25 root         INFO     information: reation_node number:  273  |  mol_node number:  378  | iter:  20
+06-15 16:25 root         INFO     Final search status | expand model call | value model call | iter: True | 20 | 286 | 20
+06-15 16:25 root         INFO     Succ: 94/104/190 | avg time: 11.94 s | avg iter: 23.99 | avg expand_model_call: 23.99 | avg value_model_call: 394.42 | avg reaction_nodes_number: 377.12 | avg mol_nodes_number: 518.24
+06-15 16:25 root         INFO     information: reation_node number:  171  |  mol_node number:  238  | iter:  12
+06-15 16:25 root         INFO     Final search status | expand model call | value model call | iter: True | 12 | 178 | 12
+06-15 16:25 root         INFO     Succ: 95/105/190 | avg time: 11.85 s | avg iter: 23.88 | avg expand_model_call: 23.88 | avg value_model_call: 392.36 | avg reaction_nodes_number: 375.15 | avg mol_nodes_number: 515.57
+06-15 16:25 root         INFO     information: reation_node number:  205  |  mol_node number:  397  | iter:  11
+06-15 16:25 root         INFO     Final search status | expand model call | value model call | iter: True | 11 | 221 | 11
+06-15 16:25 root         INFO     Succ: 96/106/190 | avg time: 11.81 s | avg iter: 23.75 | avg expand_model_call: 23.75 | avg value_model_call: 390.75 | avg reaction_nodes_number: 373.55 | avg mol_nodes_number: 514.45
+06-15 16:25 root         INFO     information: reation_node number:  317  |  mol_node number:  414  | iter:  24
+06-15 16:25 root         INFO     Final search status | expand model call | value model call | iter: True | 24 | 322 | 24
+06-15 16:25 root         INFO     Succ: 97/107/190 | avg time: 11.84 s | avg iter: 23.76 | avg expand_model_call: 23.76 | avg value_model_call: 390.10 | avg reaction_nodes_number: 373.02 | avg mol_nodes_number: 513.51
+06-15 16:25 root         INFO     information: reation_node number:  121  |  mol_node number:  201  | iter:  14
+06-15 16:25 root         INFO     Final search status | expand model call | value model call | iter: True | 14 | 124 | 14
+06-15 16:25 root         INFO     Succ: 98/108/190 | avg time: 11.77 s | avg iter: 23.67 | avg expand_model_call: 23.67 | avg value_model_call: 387.64 | avg reaction_nodes_number: 370.69 | avg mol_nodes_number: 510.62
+06-15 16:26 root         INFO     information: reation_node number:  2084  |  mol_node number:  2464  | iter:  100
+06-15 16:26 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 2166 | 100
+06-15 16:26 root         INFO     Succ: 98/109/190 | avg time: 12.08 s | avg iter: 24.37 | avg expand_model_call: 24.37 | avg value_model_call: 403.95 | avg reaction_nodes_number: 386.40 | avg mol_nodes_number: 528.54
+06-15 16:26 root         INFO     information: reation_node number:  59  |  mol_node number:  77  | iter:  5
+06-15 16:26 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 61 | 5
+06-15 16:26 root         INFO     Succ: 99/110/190 | avg time: 12.00 s | avg iter: 24.19 | avg expand_model_call: 24.19 | avg value_model_call: 400.84 | avg reaction_nodes_number: 383.43 | avg mol_nodes_number: 524.44
+06-15 16:26 root         INFO     information: reation_node number:  24  |  mol_node number:  39  | iter:  3
+06-15 16:26 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 24 | 3
+06-15 16:26 root         INFO     Succ: 100/111/190 | avg time: 11.91 s | avg iter: 24.00 | avg expand_model_call: 24.00 | avg value_model_call: 397.44 | avg reaction_nodes_number: 380.19 | avg mol_nodes_number: 520.06
+06-15 16:26 root         INFO     information: reation_node number:  484  |  mol_node number:  902  | iter:  35
+06-15 16:26 root         INFO     Final search status | expand model call | value model call | iter: True | 35 | 493 | 35
+06-15 16:26 root         INFO     Succ: 101/112/190 | avg time: 11.95 s | avg iter: 24.10 | avg expand_model_call: 24.10 | avg value_model_call: 398.29 | avg reaction_nodes_number: 381.12 | avg mol_nodes_number: 523.47
+06-15 16:26 root         INFO     information: reation_node number:  87  |  mol_node number:  159  | iter:  5
+06-15 16:26 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 88 | 5
+06-15 16:26 root         INFO     Succ: 102/113/190 | avg time: 11.86 s | avg iter: 23.93 | avg expand_model_call: 23.93 | avg value_model_call: 395.55 | avg reaction_nodes_number: 378.51 | avg mol_nodes_number: 520.25
+06-15 16:26 root         INFO     information: reation_node number:  178  |  mol_node number:  266  | iter:  17
+06-15 16:26 root         INFO     Final search status | expand model call | value model call | iter: True | 17 | 180 | 17
+06-15 16:26 root         INFO     Succ: 103/114/190 | avg time: 11.82 s | avg iter: 23.87 | avg expand_model_call: 23.87 | avg value_model_call: 393.66 | avg reaction_nodes_number: 376.75 | avg mol_nodes_number: 518.02
+06-15 16:27 root         INFO     information: reation_node number:  698  |  mol_node number:  1089  | iter:  82
+06-15 16:27 root         INFO     Final search status | expand model call | value model call | iter: True | 82 | 881 | 82
+06-15 16:27 root         INFO     Succ: 104/115/190 | avg time: 11.98 s | avg iter: 24.37 | avg expand_model_call: 24.37 | avg value_model_call: 397.90 | avg reaction_nodes_number: 379.55 | avg mol_nodes_number: 522.98
+06-15 16:27 root         INFO     information: reation_node number:  847  |  mol_node number:  1148  | iter:  100
+06-15 16:27 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 968 | 100
+06-15 16:27 root         INFO     Succ: 104/116/190 | avg time: 12.22 s | avg iter: 25.03 | avg expand_model_call: 25.03 | avg value_model_call: 402.81 | avg reaction_nodes_number: 383.58 | avg mol_nodes_number: 528.37
+06-15 16:27 root         INFO     information: reation_node number:  57  |  mol_node number:  89  | iter:  8
+06-15 16:27 root         INFO     Final search status | expand model call | value model call | iter: True | 8 | 58 | 8
+06-15 16:27 root         INFO     Succ: 105/117/190 | avg time: 12.13 s | avg iter: 24.88 | avg expand_model_call: 24.88 | avg value_model_call: 399.86 | avg reaction_nodes_number: 380.79 | avg mol_nodes_number: 524.62
+06-15 16:28 root         INFO     information: reation_node number:  101  |  mol_node number:  127  | iter:  3
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 101 | 3
+06-15 16:28 root         INFO     Succ: 106/118/190 | avg time: 12.04 s | avg iter: 24.69 | avg expand_model_call: 24.69 | avg value_model_call: 397.33 | avg reaction_nodes_number: 378.42 | avg mol_nodes_number: 521.25
+06-15 16:28 root         INFO     information: reation_node number:  451  |  mol_node number:  690  | iter:  18
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 18 | 452 | 18
+06-15 16:28 root         INFO     Succ: 107/119/190 | avg time: 12.05 s | avg iter: 24.64 | avg expand_model_call: 24.64 | avg value_model_call: 397.79 | avg reaction_nodes_number: 379.03 | avg mol_nodes_number: 522.66
+06-15 16:28 root         INFO     information: reation_node number:  177  |  mol_node number:  263  | iter:  16
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 16 | 181 | 16
+06-15 16:28 root         INFO     Succ: 108/120/190 | avg time: 12.01 s | avg iter: 24.57 | avg expand_model_call: 24.57 | avg value_model_call: 395.98 | avg reaction_nodes_number: 377.34 | avg mol_nodes_number: 520.50
+06-15 16:28 root         INFO     information: reation_node number:  84  |  mol_node number:  137  | iter:  5
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 84 | 5
+06-15 16:28 root         INFO     Succ: 109/121/190 | avg time: 11.93 s | avg iter: 24.40 | avg expand_model_call: 24.40 | avg value_model_call: 393.40 | avg reaction_nodes_number: 374.92 | avg mol_nodes_number: 517.33
+06-15 16:28 root         INFO     information: reation_node number:  51  |  mol_node number:  79  | iter:  3
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 51 | 3
+06-15 16:28 root         INFO     Succ: 110/122/190 | avg time: 11.84 s | avg iter: 24.23 | avg expand_model_call: 24.23 | avg value_model_call: 390.60 | avg reaction_nodes_number: 372.26 | avg mol_nodes_number: 513.74
+06-15 16:28 root         INFO     information: reation_node number:  66  |  mol_node number:  119  | iter:  4
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 67 | 4
+06-15 16:28 root         INFO     Succ: 111/123/190 | avg time: 11.78 s | avg iter: 24.07 | avg expand_model_call: 24.07 | avg value_model_call: 387.97 | avg reaction_nodes_number: 369.77 | avg mol_nodes_number: 510.53
+06-15 16:28 root         INFO     information: reation_node number:  649  |  mol_node number:  992  | iter:  25
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 25 | 650 | 25
+06-15 16:28 root         INFO     Succ: 112/124/190 | avg time: 11.82 s | avg iter: 24.07 | avg expand_model_call: 24.07 | avg value_model_call: 390.08 | avg reaction_nodes_number: 372.02 | avg mol_nodes_number: 514.41
+06-15 16:28 root         INFO     information: reation_node number:  58  |  mol_node number:  71  | iter:  3
+06-15 16:28 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 58 | 3
+06-15 16:28 root         INFO     Succ: 113/125/190 | avg time: 11.74 s | avg iter: 23.90 | avg expand_model_call: 23.90 | avg value_model_call: 387.42 | avg reaction_nodes_number: 369.51 | avg mol_nodes_number: 510.86
+06-15 16:29 root         INFO     information: reation_node number:  384  |  mol_node number:  533  | iter:  38
+06-15 16:29 root         INFO     Final search status | expand model call | value model call | iter: True | 38 | 440 | 38
+06-15 16:29 root         INFO     Succ: 114/126/190 | avg time: 11.77 s | avg iter: 24.02 | avg expand_model_call: 24.02 | avg value_model_call: 387.84 | avg reaction_nodes_number: 369.63 | avg mol_nodes_number: 511.04
+06-15 16:29 root         INFO     information: reation_node number:  634  |  mol_node number:  992  | iter:  27
+06-15 16:29 root         INFO     Final search status | expand model call | value model call | iter: True | 27 | 635 | 27
+06-15 16:29 root         INFO     Succ: 115/127/190 | avg time: 11.84 s | avg iter: 24.04 | avg expand_model_call: 24.04 | avg value_model_call: 389.79 | avg reaction_nodes_number: 371.71 | avg mol_nodes_number: 514.83
+06-15 16:29 root         INFO     information: reation_node number:  51  |  mol_node number:  94  | iter:  6
+06-15 16:29 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 51 | 6
+06-15 16:29 root         INFO     Succ: 116/128/190 | avg time: 11.77 s | avg iter: 23.90 | avg expand_model_call: 23.90 | avg value_model_call: 387.14 | avg reaction_nodes_number: 369.20 | avg mol_nodes_number: 511.54
+06-15 16:29 root         INFO     information: reation_node number:  120  |  mol_node number:  200  | iter:  14
+06-15 16:29 root         INFO     Final search status | expand model call | value model call | iter: True | 14 | 123 | 14
+06-15 16:29 root         INFO     Succ: 117/129/190 | avg time: 11.73 s | avg iter: 23.82 | avg expand_model_call: 23.82 | avg value_model_call: 385.09 | avg reaction_nodes_number: 367.27 | avg mol_nodes_number: 509.12
+06-15 16:29 root         INFO     information: reation_node number:  42  |  mol_node number:  73  | iter:  4
+06-15 16:29 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 42 | 4
+06-15 16:29 root         INFO     Succ: 118/130/190 | avg time: 11.65 s | avg iter: 23.67 | avg expand_model_call: 23.67 | avg value_model_call: 382.45 | avg reaction_nodes_number: 364.77 | avg mol_nodes_number: 505.77
+06-15 16:30 root         INFO     information: reation_node number:  1006  |  mol_node number:  1127  | iter:  56
+06-15 16:30 root         INFO     Final search status | expand model call | value model call | iter: True | 56 | 1035 | 56
+06-15 16:30 root         INFO     Succ: 119/131/190 | avg time: 11.76 s | avg iter: 23.92 | avg expand_model_call: 23.92 | avg value_model_call: 387.44 | avg reaction_nodes_number: 369.66 | avg mol_nodes_number: 510.51
+06-15 16:30 root         INFO     information: reation_node number:  859  |  mol_node number:  1288  | iter:  100
+06-15 16:30 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1099 | 100
+06-15 16:30 root         INFO     Succ: 119/132/190 | avg time: 11.93 s | avg iter: 24.49 | avg expand_model_call: 24.49 | avg value_model_call: 392.83 | avg reaction_nodes_number: 373.37 | avg mol_nodes_number: 516.40
+06-15 16:30 root         INFO     information: reation_node number:  88  |  mol_node number:  143  | iter:  5
+06-15 16:30 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 89 | 5
+06-15 16:30 root         INFO     Succ: 120/133/190 | avg time: 11.87 s | avg iter: 24.35 | avg expand_model_call: 24.35 | avg value_model_call: 390.54 | avg reaction_nodes_number: 371.23 | avg mol_nodes_number: 513.59
+06-15 16:31 root         INFO     information: reation_node number:  742  |  mol_node number:  1182  | iter:  53
+06-15 16:31 root         INFO     Final search status | expand model call | value model call | iter: True | 53 | 746 | 53
+06-15 16:31 root         INFO     Succ: 121/134/190 | avg time: 11.98 s | avg iter: 24.56 | avg expand_model_call: 24.56 | avg value_model_call: 393.19 | avg reaction_nodes_number: 373.99 | avg mol_nodes_number: 518.58
+06-15 16:31 root         INFO     information: reation_node number:  1135  |  mol_node number:  1456  | iter:  100
+06-15 16:31 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1237 | 100
+06-15 16:31 root         INFO     Succ: 121/135/190 | avg time: 12.16 s | avg iter: 25.12 | avg expand_model_call: 25.12 | avg value_model_call: 399.44 | avg reaction_nodes_number: 379.63 | avg mol_nodes_number: 525.53
+06-15 16:31 root         INFO     information: reation_node number:  352  |  mol_node number:  562  | iter:  32
+06-15 16:31 root         INFO     Final search status | expand model call | value model call | iter: True | 32 | 396 | 32
+06-15 16:31 root         INFO     Succ: 122/136/190 | avg time: 12.16 s | avg iter: 25.17 | avg expand_model_call: 25.17 | avg value_model_call: 399.42 | avg reaction_nodes_number: 379.43 | avg mol_nodes_number: 525.79
+06-15 16:32 root         INFO     information: reation_node number:  705  |  mol_node number:  796  | iter:  13
+06-15 16:32 root         INFO     Final search status | expand model call | value model call | iter: True | 13 | 720 | 13
+06-15 16:32 root         INFO     Succ: 123/137/190 | avg time: 12.14 s | avg iter: 25.08 | avg expand_model_call: 25.08 | avg value_model_call: 401.76 | avg reaction_nodes_number: 381.80 | avg mol_nodes_number: 527.77
+06-15 16:32 root         INFO     information: reation_node number:  206  |  mol_node number:  294  | iter:  7
+06-15 16:32 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 209 | 7
+06-15 16:32 root         INFO     Succ: 124/138/190 | avg time: 12.09 s | avg iter: 24.95 | avg expand_model_call: 24.95 | avg value_model_call: 400.36 | avg reaction_nodes_number: 380.53 | avg mol_nodes_number: 526.07
+06-15 16:32 root         INFO     information: reation_node number:  34  |  mol_node number:  88  | iter:  2
+06-15 16:32 root         INFO     Final search status | expand model call | value model call | iter: True | 2 | 34 | 2
+06-15 16:32 root         INFO     Succ: 125/139/190 | avg time: 12.02 s | avg iter: 24.78 | avg expand_model_call: 24.78 | avg value_model_call: 397.73 | avg reaction_nodes_number: 378.04 | avg mol_nodes_number: 522.92
+06-15 16:32 root         INFO     information: reation_node number:  474  |  mol_node number:  696  | iter:  19
+06-15 16:32 root         INFO     Final search status | expand model call | value model call | iter: True | 19 | 475 | 19
+06-15 16:32 root         INFO     Succ: 126/140/190 | avg time: 12.02 s | avg iter: 24.74 | avg expand_model_call: 24.74 | avg value_model_call: 398.28 | avg reaction_nodes_number: 378.72 | avg mol_nodes_number: 524.16
+06-15 16:33 root         INFO     information: reation_node number:  937  |  mol_node number:  1352  | iter:  100
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1052 | 100
+06-15 16:33 root         INFO     Succ: 126/141/190 | avg time: 12.20 s | avg iter: 25.28 | avg expand_model_call: 25.28 | avg value_model_call: 402.91 | avg reaction_nodes_number: 382.68 | avg mol_nodes_number: 530.03
+06-15 16:33 root         INFO     information: reation_node number:  172  |  mol_node number:  294  | iter:  12
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 12 | 173 | 12
+06-15 16:33 root         INFO     Succ: 127/142/190 | avg time: 12.16 s | avg iter: 25.18 | avg expand_model_call: 25.18 | avg value_model_call: 401.30 | avg reaction_nodes_number: 381.20 | avg mol_nodes_number: 528.37
+06-15 16:33 root         INFO     information: reation_node number:  32  |  mol_node number:  50  | iter:  3
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 32 | 3
+06-15 16:33 root         INFO     Succ: 128/143/190 | avg time: 12.08 s | avg iter: 25.03 | avg expand_model_call: 25.03 | avg value_model_call: 398.71 | avg reaction_nodes_number: 378.76 | avg mol_nodes_number: 525.02
+06-15 16:33 root         INFO     information: reation_node number:  276  |  mol_node number:  362  | iter:  12
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 12 | 285 | 12
+06-15 16:33 root         INFO     Succ: 129/144/190 | avg time: 12.03 s | avg iter: 24.94 | avg expand_model_call: 24.94 | avg value_model_call: 397.92 | avg reaction_nodes_number: 378.04 | avg mol_nodes_number: 523.89
+06-15 16:33 root         INFO     information: reation_node number:  40  |  mol_node number:  78  | iter:  4
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 40 | 4
+06-15 16:33 root         INFO     Succ: 130/145/190 | avg time: 11.96 s | avg iter: 24.79 | avg expand_model_call: 24.79 | avg value_model_call: 395.46 | avg reaction_nodes_number: 375.71 | avg mol_nodes_number: 520.81
+06-15 16:33 root         INFO     information: reation_node number:  66  |  mol_node number:  112  | iter:  6
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 67 | 6
+06-15 16:33 root         INFO     Succ: 131/146/190 | avg time: 11.89 s | avg iter: 24.66 | avg expand_model_call: 24.66 | avg value_model_call: 393.21 | avg reaction_nodes_number: 373.59 | avg mol_nodes_number: 518.01
+06-15 16:33 root         INFO     information: reation_node number:  66  |  mol_node number:  124  | iter:  6
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 66 | 6
+06-15 16:33 root         INFO     Succ: 132/147/190 | avg time: 11.82 s | avg iter: 24.54 | avg expand_model_call: 24.54 | avg value_model_call: 390.98 | avg reaction_nodes_number: 371.50 | avg mol_nodes_number: 515.33
+06-15 16:33 root         INFO     information: reation_node number:  485  |  mol_node number:  584  | iter:  36
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 36 | 496 | 36
+06-15 16:33 root         INFO     Succ: 133/148/190 | avg time: 11.83 s | avg iter: 24.61 | avg expand_model_call: 24.61 | avg value_model_call: 391.69 | avg reaction_nodes_number: 372.26 | avg mol_nodes_number: 515.80
+06-15 16:33 root         INFO     information: reation_node number:  43  |  mol_node number:  64  | iter:  7
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 45 | 7
+06-15 16:33 root         INFO     Succ: 134/149/190 | avg time: 11.76 s | avg iter: 24.50 | avg expand_model_call: 24.50 | avg value_model_call: 389.36 | avg reaction_nodes_number: 370.05 | avg mol_nodes_number: 512.77
+06-15 16:33 root         INFO     information: reation_node number:  445  |  mol_node number:  710  | iter:  18
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 18 | 446 | 18
+06-15 16:33 root         INFO     Succ: 135/150/190 | avg time: 11.76 s | avg iter: 24.45 | avg expand_model_call: 24.45 | avg value_model_call: 389.74 | avg reaction_nodes_number: 370.55 | avg mol_nodes_number: 514.08
+06-15 16:33 root         INFO     information: reation_node number:  427  |  mol_node number:  667  | iter:  17
+06-15 16:33 root         INFO     Final search status | expand model call | value model call | iter: True | 17 | 428 | 17
+06-15 16:33 root         INFO     Succ: 136/151/190 | avg time: 11.76 s | avg iter: 24.40 | avg expand_model_call: 24.40 | avg value_model_call: 389.99 | avg reaction_nodes_number: 370.93 | avg mol_nodes_number: 515.09
+06-15 16:34 root         INFO     information: reation_node number:  438  |  mol_node number:  691  | iter:  32
+06-15 16:34 root         INFO     Final search status | expand model call | value model call | iter: True | 32 | 443 | 32
+06-15 16:34 root         INFO     Succ: 137/152/190 | avg time: 11.78 s | avg iter: 24.45 | avg expand_model_call: 24.45 | avg value_model_call: 390.34 | avg reaction_nodes_number: 371.37 | avg mol_nodes_number: 516.25
+06-15 16:34 root         INFO     information: reation_node number:  145  |  mol_node number:  242  | iter:  7
+06-15 16:34 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 147 | 7
+06-15 16:34 root         INFO     Succ: 138/153/190 | avg time: 11.73 s | avg iter: 24.34 | avg expand_model_call: 24.34 | avg value_model_call: 388.75 | avg reaction_nodes_number: 369.89 | avg mol_nodes_number: 514.46
+06-15 16:34 root         INFO     information: reation_node number:  56  |  mol_node number:  88  | iter:  4
+06-15 16:34 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 56 | 4
+06-15 16:34 root         INFO     Succ: 139/154/190 | avg time: 11.66 s | avg iter: 24.21 | avg expand_model_call: 24.21 | avg value_model_call: 386.59 | avg reaction_nodes_number: 367.85 | avg mol_nodes_number: 511.69
+06-15 16:34 root         INFO     information: reation_node number:  1825  |  mol_node number:  2206  | iter:  100
+06-15 16:34 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1909 | 100
+06-15 16:34 root         INFO     Succ: 139/155/190 | avg time: 11.83 s | avg iter: 24.70 | avg expand_model_call: 24.70 | avg value_model_call: 396.41 | avg reaction_nodes_number: 377.25 | avg mol_nodes_number: 522.62
+06-15 16:35 root         INFO     information: reation_node number:  662  |  mol_node number:  1200  | iter:  40
+06-15 16:35 root         INFO     Final search status | expand model call | value model call | iter: True | 40 | 666 | 40
+06-15 16:35 root         INFO     Succ: 140/156/190 | avg time: 11.86 s | avg iter: 24.79 | avg expand_model_call: 24.79 | avg value_model_call: 398.14 | avg reaction_nodes_number: 379.08 | avg mol_nodes_number: 526.96
+06-15 16:35 root         INFO     information: reation_node number:  128  |  mol_node number:  168  | iter:  6
+06-15 16:35 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 128 | 6
+06-15 16:35 root         INFO     Succ: 141/157/190 | avg time: 11.80 s | avg iter: 24.68 | avg expand_model_call: 24.68 | avg value_model_call: 396.42 | avg reaction_nodes_number: 377.48 | avg mol_nodes_number: 524.68
+06-15 16:35 root         INFO     information: reation_node number:  232  |  mol_node number:  354  | iter:  10
+06-15 16:35 root         INFO     Final search status | expand model call | value model call | iter: True | 10 | 233 | 10
+06-15 16:35 root         INFO     Succ: 142/158/190 | avg time: 11.76 s | avg iter: 24.58 | avg expand_model_call: 24.58 | avg value_model_call: 395.39 | avg reaction_nodes_number: 376.56 | avg mol_nodes_number: 523.59
+06-15 16:35 root         INFO     information: reation_node number:  127  |  mol_node number:  183  | iter:  11
+06-15 16:35 root         INFO     Final search status | expand model call | value model call | iter: True | 11 | 130 | 11
+06-15 16:35 root         INFO     Succ: 143/159/190 | avg time: 11.72 s | avg iter: 24.50 | avg expand_model_call: 24.50 | avg value_model_call: 393.72 | avg reaction_nodes_number: 374.99 | avg mol_nodes_number: 521.45
+06-15 16:35 root         INFO     information: reation_node number:  939  |  mol_node number:  1314  | iter:  100
+06-15 16:35 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1090 | 100
+06-15 16:35 root         INFO     Succ: 143/160/190 | avg time: 11.87 s | avg iter: 24.97 | avg expand_model_call: 24.97 | avg value_model_call: 398.07 | avg reaction_nodes_number: 378.51 | avg mol_nodes_number: 526.41
+06-15 16:36 root         INFO     information: reation_node number:  429  |  mol_node number:  648  | iter:  18
+06-15 16:36 root         INFO     Final search status | expand model call | value model call | iter: True | 18 | 430 | 18
+06-15 16:36 root         INFO     Succ: 144/161/190 | avg time: 11.86 s | avg iter: 24.93 | avg expand_model_call: 24.93 | avg value_model_call: 398.27 | avg reaction_nodes_number: 378.83 | avg mol_nodes_number: 527.16
+06-15 16:36 root         INFO     information: reation_node number:  89  |  mol_node number:  141  | iter:  7
+06-15 16:36 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 90 | 7
+06-15 16:36 root         INFO     Succ: 145/162/190 | avg time: 11.80 s | avg iter: 24.81 | avg expand_model_call: 24.81 | avg value_model_call: 396.36 | avg reaction_nodes_number: 377.04 | avg mol_nodes_number: 524.78
+06-15 16:37 root         INFO     information: reation_node number:  2925  |  mol_node number:  2987  | iter:  100
+06-15 16:37 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 3000 | 100
+06-15 16:37 root         INFO     Succ: 145/163/190 | avg time: 12.26 s | avg iter: 25.28 | avg expand_model_call: 25.28 | avg value_model_call: 412.34 | avg reaction_nodes_number: 392.67 | avg mol_nodes_number: 539.88
+06-15 16:37 root         INFO     information: reation_node number:  96  |  mol_node number:  144  | iter:  5
+06-15 16:37 root         INFO     Final search status | expand model call | value model call | iter: True | 5 | 96 | 5
+06-15 16:37 root         INFO     Succ: 146/164/190 | avg time: 12.21 s | avg iter: 25.15 | avg expand_model_call: 25.15 | avg value_model_call: 410.41 | avg reaction_nodes_number: 390.86 | avg mol_nodes_number: 537.47
+06-15 16:37 root         INFO     information: reation_node number:  357  |  mol_node number:  586  | iter:  33
+06-15 16:37 root         INFO     Final search status | expand model call | value model call | iter: True | 33 | 365 | 33
+06-15 16:37 root         INFO     Succ: 147/165/190 | avg time: 12.20 s | avg iter: 25.20 | avg expand_model_call: 25.20 | avg value_model_call: 410.13 | avg reaction_nodes_number: 390.65 | avg mol_nodes_number: 537.76
+06-15 16:37 root         INFO     information: reation_node number:  16  |  mol_node number:  32  | iter:  2
+06-15 16:37 root         INFO     Final search status | expand model call | value model call | iter: True | 2 | 16 | 2
+06-15 16:37 root         INFO     Succ: 148/166/190 | avg time: 12.13 s | avg iter: 25.06 | avg expand_model_call: 25.06 | avg value_model_call: 407.76 | avg reaction_nodes_number: 388.40 | avg mol_nodes_number: 534.72
+06-15 16:38 root         INFO     information: reation_node number:  248  |  mol_node number:  353  | iter:  21
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 21 | 268 | 21
+06-15 16:38 root         INFO     Succ: 149/167/190 | avg time: 12.11 s | avg iter: 25.04 | avg expand_model_call: 25.04 | avg value_model_call: 406.92 | avg reaction_nodes_number: 387.56 | avg mol_nodes_number: 533.63
+06-15 16:38 root         INFO     information: reation_node number:  36  |  mol_node number:  70  | iter:  3
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 36 | 3
+06-15 16:38 root         INFO     Succ: 150/168/190 | avg time: 12.04 s | avg iter: 24.90 | avg expand_model_call: 24.90 | avg value_model_call: 404.71 | avg reaction_nodes_number: 385.46 | avg mol_nodes_number: 530.87
+06-15 16:38 root         INFO     information: reation_node number:  45  |  mol_node number:  72  | iter:  2
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 2 | 45 | 2
+06-15 16:38 root         INFO     Succ: 151/169/190 | avg time: 11.97 s | avg iter: 24.77 | avg expand_model_call: 24.77 | avg value_model_call: 402.59 | avg reaction_nodes_number: 383.45 | avg mol_nodes_number: 528.15
+06-15 16:38 root         INFO     information: reation_node number:  38  |  mol_node number:  64  | iter:  3
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 3 | 40 | 3
+06-15 16:38 root         INFO     Succ: 152/170/190 | avg time: 11.91 s | avg iter: 24.64 | avg expand_model_call: 24.64 | avg value_model_call: 400.45 | avg reaction_nodes_number: 381.42 | avg mol_nodes_number: 525.42
+06-15 16:38 root         INFO     information: reation_node number:  58  |  mol_node number:  90  | iter:  8
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 8 | 60 | 8
+06-15 16:38 root         INFO     Succ: 153/171/190 | avg time: 11.85 s | avg iter: 24.54 | avg expand_model_call: 24.54 | avg value_model_call: 398.46 | avg reaction_nodes_number: 379.53 | avg mol_nodes_number: 522.88
+06-15 16:38 root         INFO     information: reation_node number:  46  |  mol_node number:  69  | iter:  4
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 49 | 4
+06-15 16:38 root         INFO     Succ: 154/172/190 | avg time: 11.80 s | avg iter: 24.42 | avg expand_model_call: 24.42 | avg value_model_call: 396.43 | avg reaction_nodes_number: 377.59 | avg mol_nodes_number: 520.24
+06-15 16:38 root         INFO     information: reation_node number:  119  |  mol_node number:  168  | iter:  6
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 6 | 119 | 6
+06-15 16:38 root         INFO     Succ: 155/173/190 | avg time: 11.74 s | avg iter: 24.32 | avg expand_model_call: 24.32 | avg value_model_call: 394.83 | avg reaction_nodes_number: 376.09 | avg mol_nodes_number: 518.20
+06-15 16:38 root         INFO     information: reation_node number:  909  |  mol_node number:  1239  | iter:  100
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: False | 100 | 1147 | 100
+06-15 16:38 root         INFO     Succ: 155/174/190 | avg time: 11.86 s | avg iter: 24.75 | avg expand_model_call: 24.75 | avg value_model_call: 399.15 | avg reaction_nodes_number: 379.16 | avg mol_nodes_number: 522.34
+06-15 16:38 root         INFO     information: reation_node number:  413  |  mol_node number:  631  | iter:  19
+06-15 16:38 root         INFO     Final search status | expand model call | value model call | iter: True | 19 | 415 | 19
+06-15 16:38 root         INFO     Succ: 156/175/190 | avg time: 11.85 s | avg iter: 24.72 | avg expand_model_call: 24.72 | avg value_model_call: 399.24 | avg reaction_nodes_number: 379.35 | avg mol_nodes_number: 522.97
+06-15 16:39 root         INFO     information: reation_node number:  372  |  mol_node number:  607  | iter:  28
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 28 | 388 | 28
+06-15 16:39 root         INFO     Succ: 157/176/190 | avg time: 11.85 s | avg iter: 24.74 | avg expand_model_call: 24.74 | avg value_model_call: 399.18 | avg reaction_nodes_number: 379.31 | avg mol_nodes_number: 523.44
+06-15 16:39 root         INFO     information: reation_node number:  749  |  mol_node number:  953  | iter:  41
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 41 | 772 | 41
+06-15 16:39 root         INFO     Succ: 158/177/190 | avg time: 11.85 s | avg iter: 24.83 | avg expand_model_call: 24.83 | avg value_model_call: 401.28 | avg reaction_nodes_number: 381.40 | avg mol_nodes_number: 525.87
+06-15 16:39 root         INFO     information: reation_node number:  640  |  mol_node number:  753  | iter:  39
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 39 | 704 | 39
+06-15 16:39 root         INFO     Succ: 159/178/190 | avg time: 11.86 s | avg iter: 24.91 | avg expand_model_call: 24.91 | avg value_model_call: 402.98 | avg reaction_nodes_number: 382.85 | avg mol_nodes_number: 527.15
+06-15 16:39 root         INFO     information: reation_node number:  162  |  mol_node number:  164  | iter:  2
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 2 | 162 | 2
+06-15 16:39 root         INFO     Succ: 160/179/190 | avg time: 11.80 s | avg iter: 24.78 | avg expand_model_call: 24.78 | avg value_model_call: 401.64 | avg reaction_nodes_number: 381.61 | avg mol_nodes_number: 525.12
+06-15 16:39 root         INFO     information: reation_node number:  287  |  mol_node number:  348  | iter:  24
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 24 | 294 | 24
+06-15 16:39 root         INFO     Succ: 161/180/190 | avg time: 11.78 s | avg iter: 24.78 | avg expand_model_call: 24.78 | avg value_model_call: 401.04 | avg reaction_nodes_number: 381.09 | avg mol_nodes_number: 524.13
+06-15 16:39 root         INFO     information: reation_node number:  52  |  mol_node number:  90  | iter:  4
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 52 | 4
+06-15 16:39 root         INFO     Succ: 162/181/190 | avg time: 11.73 s | avg iter: 24.66 | avg expand_model_call: 24.66 | avg value_model_call: 399.11 | avg reaction_nodes_number: 379.27 | avg mol_nodes_number: 521.73
+06-15 16:39 root         INFO     information: reation_node number:  119  |  mol_node number:  182  | iter:  21
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 21 | 180 | 21
+06-15 16:39 root         INFO     Succ: 163/182/190 | avg time: 11.70 s | avg iter: 24.64 | avg expand_model_call: 24.64 | avg value_model_call: 397.91 | avg reaction_nodes_number: 377.84 | avg mol_nodes_number: 519.87
+06-15 16:39 root         INFO     information: reation_node number:  131  |  mol_node number:  160  | iter:  7
+06-15 16:39 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 142 | 7
+06-15 16:39 root         INFO     Succ: 164/183/190 | avg time: 11.65 s | avg iter: 24.55 | avg expand_model_call: 24.55 | avg value_model_call: 396.51 | avg reaction_nodes_number: 376.49 | avg mol_nodes_number: 517.90
+06-15 16:40 root         INFO     information: reation_node number:  949  |  mol_node number:  1345  | iter:  83
+06-15 16:40 root         INFO     Final search status | expand model call | value model call | iter: True | 83 | 986 | 83
+06-15 16:40 root         INFO     Succ: 165/184/190 | avg time: 11.72 s | avg iter: 24.86 | avg expand_model_call: 24.86 | avg value_model_call: 399.71 | avg reaction_nodes_number: 379.60 | avg mol_nodes_number: 522.40
+06-15 16:40 root         INFO     information: reation_node number:  115  |  mol_node number:  157  | iter:  7
+06-15 16:40 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 115 | 7
+06-15 16:40 root         INFO     Succ: 166/185/190 | avg time: 11.68 s | avg iter: 24.77 | avg expand_model_call: 24.77 | avg value_model_call: 398.17 | avg reaction_nodes_number: 378.17 | avg mol_nodes_number: 520.42
+06-15 16:40 root         INFO     information: reation_node number:  45  |  mol_node number:  61  | iter:  4
+06-15 16:40 root         INFO     Final search status | expand model call | value model call | iter: True | 4 | 45 | 4
+06-15 16:40 root         INFO     Succ: 167/186/190 | avg time: 11.62 s | avg iter: 24.66 | avg expand_model_call: 24.66 | avg value_model_call: 396.27 | avg reaction_nodes_number: 376.38 | avg mol_nodes_number: 517.95
+06-15 16:40 root         INFO     information: reation_node number:  499  |  mol_node number:  561  | iter:  27
+06-15 16:40 root         INFO     Final search status | expand model call | value model call | iter: True | 27 | 511 | 27
+06-15 16:40 root         INFO     Succ: 168/187/190 | avg time: 11.61 s | avg iter: 24.67 | avg expand_model_call: 24.67 | avg value_model_call: 396.89 | avg reaction_nodes_number: 377.04 | avg mol_nodes_number: 518.18
+06-15 16:40 root         INFO     information: reation_node number:  438  |  mol_node number:  722  | iter:  34
+06-15 16:40 root         INFO     Final search status | expand model call | value model call | iter: True | 34 | 443 | 34
+06-15 16:40 root         INFO     Succ: 169/188/190 | avg time: 11.62 s | avg iter: 24.72 | avg expand_model_call: 24.72 | avg value_model_call: 397.13 | avg reaction_nodes_number: 377.36 | avg mol_nodes_number: 519.27
+06-15 16:40 root         INFO     information: reation_node number:  243  |  mol_node number:  374  | iter:  10
+06-15 16:40 root         INFO     Final search status | expand model call | value model call | iter: True | 10 | 244 | 10
+06-15 16:40 root         INFO     Succ: 170/189/190 | avg time: 11.59 s | avg iter: 24.64 | avg expand_model_call: 24.64 | avg value_model_call: 396.32 | avg reaction_nodes_number: 376.65 | avg mol_nodes_number: 518.50
+06-15 16:40 root         INFO     information: reation_node number:  256  |  mol_node number:  373  | iter:  7
+06-15 16:40 root         INFO     Final search status | expand model call | value model call | iter: True | 7 | 262 | 7
+06-15 16:40 root         INFO     Succ: 171/190/190 | avg time: 11.56 s | avg iter: 24.55 | avg expand_model_call: 24.55 | avg value_model_call: 395.62 | avg reaction_nodes_number: 376.02 | avg mol_nodes_number: 517.73
